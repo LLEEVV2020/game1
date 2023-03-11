@@ -1,0 +1,133 @@
+.searchgame{
+    margin: 0;
+    background-color: #072301;
+    border-radius: 5px;
+    border: 3px solid #7C9167;
+}
+.searchgame__container-choice{
+    height: calc(15vh + 85px);
+    width: 100%;
+}
+.searchgame__container-filtes{
+    display: flex;
+    justify-content: space-evenly;
+
+    color:white;
+}
+.searchgame__container-filtes p{
+margin: 5px 10px;
+}
+.searchgame__container-filtes input{
+background-color: #254715;	
+}
+.searchgame__container-filtes-bet{
+    width: 60px;
+}
+.searchgame__container-choice-item{
+    height: 50px;
+    background-color: #3E332A;
+    margin: 5px 10px;
+    display: flex;
+    align-items: center;
+}
+.searchgame__container-choice-item-name{
+    width: 170px;
+    height: 50px;
+    border-right:2px solid  #453F33;
+    text-align: center; 
+    margin: 5px;
+
+}
+.searchgame__container-choice-item2{
+    background-color: #072301;
+    height: 45px;
+    margin-bottom: 0;
+    & > div{
+        height: 45px;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        text-align: center;
+        border-right: none;
+        input{
+            background-color: #254715;
+            width: 90%;
+            color: #fff;
+            padding-left: 7px;
+            height: 23px;
+            margin-bottom: 2px;
+        }
+    }
+}
+.searchgame__container-choice-custom{
+    height: auto !important;
+}
+
+.searchgame__container-choice-item-name p{
+    color: white;
+    margin-top:20px;
+}
+.searchgame__container-choice-item-player{
+    width: 270px;
+    height: 50px;
+    border-right:2px solid  #453F33;
+    img{
+        
+            width: 40px;
+            height: 40px;
+            margin: 5px;
+        
+    }
+}
+.searchgame__container-choice-item-deal2{
+    width: 60px;
+    height: 50px;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    border-right:2px solid  #453F33;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    p{
+        margin: 0;
+    }
+}
+.searchgame__container-choice-item-bet{
+    width: 60px;
+    height: 50px;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    border-right:2px solid  #453F33;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    p{
+        margin: 0;
+    }
+}
+.searchgame__container-choice-item-deal{
+    width: 75px;
+    height: 50px;
+    border-right:2px solid  #453F33;
+}
+.searchgame__container-choice-item-play{
+    width: 105px;
+    height: 50px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.searchgame__container-choice-item-play button{
+color: white;
+margin-top: 10px;
+background-color: green;
+height:30px;
+width: 85px;
+border-radius: 15px;
+}

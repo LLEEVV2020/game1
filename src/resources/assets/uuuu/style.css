@@ -1,0 +1,123 @@
+.container {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+
+}
+
+.play {
+    width: 150px;
+    border-radius: 5%;
+    margin: 0px 15px 1px;
+    justify-content: center;
+    background-color: #f08484;
+}
+
+.container img {
+    height: 60px;
+    width: 60px;
+    margin: 5px 5px;
+    border-radius: 5%;
+
+}
+
+.play__player {
+    height: 20px;
+    width: 140px;
+    align-items: center;
+    text-align: center;
+}
+
+.play__player-temporary {
+    margin: 6px;
+    font-size: 10px;
+}
+
+.play__player-temporary-time {
+    margin: 0;
+}
+
+.play__player-temporary-timebar {
+    height: 4px;
+    width: 120px;
+    background-color: green;
+    margin: 0px auto;
+}
+
+.play__player-content {
+    display: flex;
+    margin: 0px 10px 0px 5px;
+    border-radius: 5%;
+    width: 135px;
+    height: 73px;
+    justify-content: space-between;
+    background-color: #f7cbcb;
+}
+
+.play__player-content-info {
+    margin-top: 5px;
+    font-size: 10px;
+}
+
+.play__player-content-info-name {
+    margin: 0 0 0 5px;
+}
+
+.play__player-content-info-post {
+    margin: 0 0 0 5px;
+
+}
+
+.play__player-content-info-currency1 {
+    margin: 15px 0 0 5px;
+}
+
+.play__player-content-info-currency2 {
+    margin: 0 0 0 5px;
+}
+
+.oponents__player-content {
+    width: 155px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: #98bdf5;
+    font-size: 10px;
+    margin: 0px;
+    border: 2px solid #1c18de;
+}
+.oponents{
+    height: 75px;
+    width: 135px;
+}
+.oponents__button button{
+    border-radius: 10px;
+    height: 20px;
+    width: 155px;
+    border: 1px solid #7d430c;
+    background-color: #7d430c;
+    margin-bottom: 2px;
+    color: wheat;
+}
+.oponents__button p{
+margin: 0 10px 0 10px;
+font-size: 10px;
+}
+.oponents__player-content-info-name {
+    margin: 0 0 0 5px;
+}
+.oponents__player-content-info{
+    margin: 0;
+}
+.oponents__player-content-info-post {
+    margin: 0 0 0 5px;
+
+}
+
+.oponents__player-content-info-currency1 {
+    margin: 15px 0 0 5px;
+}
+
+.oponents__player-content-info-currency2 {
+    margin: 0 0 0 5px;
+}

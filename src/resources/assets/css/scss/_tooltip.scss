@@ -1,0 +1,29 @@
+.tooltip{
+
+    opacity: 1 !important; 
+    .tooltip-inner{
+        min-height: 200px;
+        background: rgb(44,96,43);
+        background: linear-gradient(180deg, rgba(44,96,43,1) 0%, rgba(3,18,3,1) 100%);
+
+    }
+    
+    .tooltip-arrow{
+        display: none;
+    }
+    
+    .tooltip-inner{
+        max-width: 326px;
+        width: 100%;
+        padding: 0;
+    }
+    .casino__container{
+        max-width: 328px;
+        width: 205px; 
+    }
+    .casino__container h3{
+        font-size: 16px;
+    }
+
+    /*#FFCC00*/
+}

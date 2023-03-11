@@ -1,0 +1,196 @@
+.container {
+    display: flex;
+    justify-content: center;
+
+}
+.footer-players{
+    .container{
+        & > * + *{
+           margin-left: 10px; 
+        }
+    }
+}
+
+.play {
+
+    border-radius: 5%;
+    justify-content: center;
+    background-color: #f08484;
+}
+
+.container img {
+    height: 60px;
+    width: 60px;
+    margin: 5px 5px;
+    border-radius: 5%;
+    object-fit: cover;
+}
+
+.play__player {
+    text-align: center;
+    margin-bottom: 3px;
+}
+
+.play__player-temporary {
+
+    font-size: 12px;
+}
+
+.play__player-temporary-time {
+    margin: 0;
+    text-align: center;
+}
+
+.play__player-temporary-timebar {
+    height: 4px;
+    width: 120px;
+    background-color: green;
+    margin: 0px auto;
+}
+
+.play__player-content {
+    display: flex;
+    margin: 0px 3px 0px 5px;
+    border-radius: 5%;
+
+    justify-content: space-between;
+    background-color: #f7cbcb;
+}
+
+
+
+.play__player-content-info {
+    font-size: 12px;
+    p{
+        margin-bottom: 0;
+        line-height: 1.2;
+        white-space: nowrap;
+        margin-left: 5px;
+    }
+    .play__player-content-info-name{
+        font-weight: bold;
+    }
+    .play__player-content-info-post{
+        color: red;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+}
+
+.oponents__player-content {
+    width: 155px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: 10px;
+    margin: 0px;
+}
+
+.oponents{
+    border-radius: 5%;
+}
+
+.oponents--blue{
+    &.oponents--time{
+        background-color: #1c18de;
+    }
+    .oponents__player-content{
+
+        background-color: #abccff;
+        border: 2px solid #1c18de;
+    }
+}
+.oponents--red{
+    &.oponents--time{
+        background-color: #f08484;
+    }
+    .oponents__player-content{
+        background-color: #f7cbcb;
+        border: 2px solid #f08484;
+    }
+}
+.oponents--yellow{
+    &.oponents--time{
+        background-color: #CD9A18;
+    }
+    .oponents__player-content{
+        background-color: #E3DE7F;
+        border: 2px solid #CD9A18;
+    }
+}
+.oponents--green{
+    &.oponents--time{
+        background-color: #20821C;
+    }
+    .oponents__player-content{
+        background-color: #d4ffb0;
+        border: 2px solid #20821C;
+    }
+}
+
+.oponents--violet{
+    &.oponents--time{
+        background: #ca4cb1;
+    }
+    .oponents__player-content{
+        
+        border: 2px solid #ca4cb1;
+        background: #ffd0f6;
+    }
+}
+
+
+
+
+.oponents__button button{
+    border-radius: 4px;
+    height: 20px;
+    width: 155px;
+    border: 1px solid #7d430c;
+    background-color: #7d430c;
+    margin-bottom: 2px;
+    color: #fff;
+    background: rgb(220,97,23);
+    background: linear-gradient(180deg, rgba(220,97,23,1) 0%, rgba(228,46,6,1) 48%, rgba(164,33,7,1) 50%, rgba(248,90,48,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.oponents__button p{
+margin: 0 ;
+font-size: 12px;
+}
+
+.oponents__player-content-info{
+    margin: 0;
+    font-size: 12px;
+    p{
+        margin-bottom: 0;
+        line-height: 1.2;
+        margin-left: 5px;
+        white-space: nowrap;
+    }
+    .oponents__player-content-info-name{
+        font-weight: bold;
+    }
+    .oponents__player-content-info-post{
+        color: red;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+}
+
+.symbol-dollar, 
+.symbol-a{
+    font-weight: bold;
+}
+.bold{
+    font-weight: bold;
+}
+.symbol-dollar{
+    color: #306512;
+}
+.symbol-a{
+    color: #BE2D1C;
+}
