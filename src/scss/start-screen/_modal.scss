@@ -1,0 +1,220 @@
+.left__modal{
+     width: 220px;
+     height: 100px;
+     background: #333333;
+     border-bottom: 3px double #2f2f2f;
+     border-right: 3px double #2f2f2f;
+     padding-left: 10px;
+     font-size: 22px;
+}
+
+.left__modal span{
+     color: #dfd29a;
+}
+
+.modal__yellow{
+     color: rgb(255, 174, 0);
+}
+
+.right__modal{
+     border-bottom: 3px solid #2f2f2f;
+     padding-left: 15px;
+}
+
+.modal__no__border{
+     border: none;
+}
+
+.checkbox__player{
+     display: none;
+}
+
+.checkbox__top{
+     display: inline;
+     margin-right: 15px;
+}
+
+.checkbox__top1 label{
+     background-image: url(../img/1843.png);
+}
+
+.checkbox__top2 label{
+     background-image: url(../img/1839.png);
+}
+
+.checkbox__top3 label{
+     background-image: url(../img/1840.png);
+}
+
+.checkbox__top label {
+     background-repeat: no-repeat;
+     background-position: 15px 10px;
+     background-size: 125px 35px;
+     background-color: #363733;
+     position: relative;
+     border-radius: 2px;
+     display: inline-block;
+     width: 160px;
+     height: 50px;
+}
+
+.checkbox__top input:checked + label::before{
+     content: '';
+     display: block;
+     width: 100%;
+     height: 100%;
+     border: 1px solid #E0E0E0;
+     border-radius: 8px;
+}
+
+.checkbox__players{
+     display: inline;
+     margin-right: 10px;
+}
+
+.checkbox__players label {
+     background-repeat: no-repeat;
+     background-image: url(../img/1821.png);
+     background-size: 40px 40px;
+     position: relative;
+     display: inline-block;
+     width: 40px;
+     height: 40px;
+}
+.checkbox__players input:checked + label::before{
+  content: '';
+}
+
+
+  [id="pl1"]:checked ~ .checkbox__players:nth-of-type(1) label::before{
+    content: '';
+  }
+  [id="pl2"]:checked ~ .checkbox__players:nth-of-type(1) label::before,
+  [id="pl2"]:checked ~ .checkbox__players:nth-of-type(2) label::before{
+    content: '';
+  }
+  [id="pl3"]:checked ~ .checkbox__players:nth-of-type(1) label::before,
+  [id="pl3"]:checked ~ .checkbox__players:nth-of-type(2) label::before,
+  [id="pl3"]:checked ~ .checkbox__players:nth-of-type(3) label::before{
+    content: '';
+  }
+
+  [id="pl4"]:checked ~ .checkbox__players:nth-of-type(1) label::before,
+  [id="pl4"]:checked ~ .checkbox__players:nth-of-type(2) label::before,
+  [id="pl4"]:checked ~ .checkbox__players:nth-of-type(3) label::before,
+  [id="pl4"]:checked ~ .checkbox__players:nth-of-type(4) label::before{
+    content: '';
+  }
+
+  [id="pl5"]:checked ~ .checkbox__players:nth-of-type(1) label::before,
+  [id="pl5"]:checked ~ .checkbox__players:nth-of-type(2) label::before,
+  [id="pl5"]:checked ~ .checkbox__players:nth-of-type(3) label::before,
+  [id="pl5"]:checked ~ .checkbox__players:nth-of-type(4) label::before,
+  [id="pl5"]:checked ~ .checkbox__players:nth-of-type(5) label::before{
+    content: '';
+  }
+
+
+.checkbox__players label::before{
+
+     display: block;
+     background-image: url(../img/1827.png);
+     background-repeat: no-repeat;
+     background-size: 40px 40px;
+     width: 100%;
+     height: 100%;
+}
+
+.checkbox__player__margin{
+     margin-left: 90px;
+}
+
+.player__number{
+     font-size: 22px;
+     vertical-align: middle;
+     display: inline;
+     margin-left: -115px;
+}
+
+.checkbox__rate{
+     display: inline;
+     margin-right: 10px;
+}
+
+.checkbox__rate1 label{
+     background-image: url(../img/1811.png);
+}
+
+.checkbox__rate2 label{
+     background-image: url(../img/1815.png);
+}
+
+.checkbox__rate3 label{
+     background-image: url(../img/1810.png);
+}
+
+.checkbox__rate label {
+     background-repeat: no-repeat;
+     background-color: #363733;
+     position: relative;
+     border-radius: 2px;
+     display: inline-block;
+     width: 80px;
+     height: 85px;
+}
+
+.checkbox__rate input:checked + label::before{
+     content: '';
+     display: block;
+     width: 100%;
+     height: 100%;
+     border: 1px solid #E0E0E0;
+     border-radius: 8px;
+}
+
+.modal__input{
+     border-radius: 8px;
+     background: #fff;
+     padding-left: 15px;
+     font-style: 22px;
+     border: none;
+     height: 40px;
+     width: 535px;
+}
+
+.modal__pass{
+     display: block;
+     width: 205px;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+.modal__checker{
+     margin-right: 20px;
+}
+
+.modal__button{
+     padding: 15px 55px 15px 55px;
+     margin-left: 25px;
+     background: linear-gradient(180deg, rgb(101, 140, 49), rgb(31, 64, 1));
+     border: 2px solid #759322;
+     border-radius: 5px;
+}
+
+.modal__button:active{
+     top: .1em;
+     left: .1em;
+     box-shadow: 0 0 0 60px rgba(0,0,0,.05) inset;
+}
+
+.checkbox__rate .checkbox__number{
+  background-image: none;
+}
+.checkbox__rate .checkbox__number span{
+  position:absolute;
+  left: 50%;
+
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+}

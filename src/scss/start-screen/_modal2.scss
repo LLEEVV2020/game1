@@ -1,0 +1,191 @@
+.btn-close{
+  background-image: url(../img/close1.svg);
+
+
+}
+
+
+.modal__content {
+  width: 766px;
+  background: #323232;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding: 30px 18px;
+}
+
+.modal__content * {
+  font-family: 'Roboto';
+}
+
+.modal__content-title {
+  /* font-family: 'Roboto'; */
+  font-size: 22px;
+  color: #ffff00;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  margin-bottom: 35px;
+}
+
+.modal__content-title::after,
+.modal__content-title::before
+{
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 110px;
+  height: 5px;
+  background: linear-gradient(#242323 42%,#989797);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+
+.modal__content-title::after {
+  right: 0;
+}
+
+.modal__content-title::before {
+  left: 0;
+}
+
+/* Top text in modal window end */
+
+/* Chests style start */
+
+.modal__bonus-chests {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-bottom: 35px;
+  gap: 6px;
+}
+
+.chest__card {
+  position: relative;
+  width: 100px;
+}
+
+.chest__pic {
+  opacity: .5;
+}
+
+.chest__card.active .chest__pic {
+  opacity: 1;
+}
+
+.chest__card.active .chest__day {
+  background: url(../img/day__active.png) no-repeat;
+  text-shadow: none;
+  color: #000000;
+}
+
+.chest__day {
+  display: block;
+  background: url(../img/day.png) no-repeat;
+  width: 52px;
+  height: 38px;
+  text-align: center;
+  position: absolute;
+  top: -28px;
+  right: 5px;
+  font-size: 18px;
+  line-height: 1.9em;
+  color: #2a2929;
+  text-shadow: 0 0 4px #f5f5f5;
+  margin: 0;
+}
+
+.chest__sum {
+  position: absolute;
+  left: 25px;
+  bottom: 3px;
+  font-size: 14px;
+  color: rgb(7, 186, 7);
+  text-shadow: 0 0 4px #000000;
+  margin: 0;
+  letter-spacing: -1px;
+  text-align: center;
+}
+
+.chest__card:nth-child(6) .chest__sum,
+.chest__card:nth-child(7) .chest__sum
+{
+  left: 0;
+  bottom: -14px;
+}
+
+/* Chests style end */
+
+/* Bottom text in modal window style start */
+
+.modal__text {
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #e0e0e0;
+  margin-bottom: 30px;
+}
+
+.modal__content-title-2 {
+  font-size: 22px;
+  color: #ffff00;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+}
+
+.modal__content-title-2::after,
+.modal__content-title-2::before
+{
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 135px;
+  height: 5px;
+  background: linear-gradient(#242323 42%,#989797);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+
+.modal__content-title-2::after {
+  right: 0;
+}
+
+.modal__content-title-2::before {
+  left: 0;
+}
+
+.bottom__modal-text {
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #e0e0e0;
+  margin-bottom: 30px;
+  letter-spacing: normal;
+  margin: 0;
+}
+
+.bottom__modal-text span {
+  color: #ffff00;
+}
+
+/* Bottom text in modal window style end */

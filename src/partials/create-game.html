@@ -1,0 +1,131 @@
+<div class="modal fade show" id="exampleDarkModal" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+     <div class="modal-content bg-dark">
+        <div class="modal-header">
+           <h4 class="modal-title text-white">Создать игру</h4>
+           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-white">
+           <form action="#">
+            <table>
+               <tr>
+                  <td class="left__modal modal__yellow">НАЗВАНИЕ ИГРЫ:</td>
+                  <td class="right__modal"><input type="text" class="modal__input" placeholder="Нина Лысюк" required></td>
+               </tr>
+               <tr>
+                  <td class="left__modal">Тип игры:</td>
+                  <td class="right__modal">
+                     <div class="checkbox__top checkbox__top1">
+                      <input type="radio" class="checkbox__player" id="very" name="top_game" checked>
+                      <label for="very"></label>
+                     </div>
+                     <div class="checkbox__top checkbox__top2">
+                      <input type="radio" class="checkbox__player" id="2vs2" name="top_game">
+                      <label for="2vs2"></label>
+                     </div>
+                     <div class="checkbox__top checkbox__top3">
+                      <input type="radio" class="checkbox__player" id="1vs2" name="top_game">
+                      <label for="1vs2"></label>
+                     </div>
+                  </td>
+               </tr>
+               <tr>
+                  <td class="left__modal">Кол-во игроков:</td>
+                  <td class="right__modal">
+
+                    <input type="radio" class="checkbox__player" id="pl1" name="player" checked>
+                    <input type="radio" class="checkbox__player" id="pl2" name="player">
+                    <input type="radio" class="checkbox__player" id="pl3" name="player">
+                    <input type="radio" class="checkbox__player" id="pl4" name="player">
+                    <input type="radio" class="checkbox__player" id="pl5" name="player">
+
+                     <div class="checkbox__players checkbox__player__margin">
+
+                      <label for="pl1"></label>
+                     </div>
+                     <div class="checkbox__players">
+
+                      <label for="pl2"></label>
+                     </div>
+                     <div class="checkbox__players">
+
+                      <label for="pl3"></label>
+                     </div>
+                     <div class="checkbox__players">
+
+                      <label for="pl4"></label>
+                     </div>
+                     <div class="checkbox__players">
+
+                      <label for="pl5"></label>
+                     </div>
+                  </td>
+                  <td>
+                     <div class="player__number">
+                      3
+                     </div>
+                  </td>
+               </tr>
+
+               <tr>
+                <td class="left__modal">Кол-во столов:</td>
+
+                <td class="right__modal">
+                  <div class="checkbox__rate checkbox__rate1">
+                   <input type="radio" class="checkbox__player" id="kg0" name="rate" checked>
+                   <label class="checkbox__number" for="kg0"><span>1</span></label>
+                  </div>
+                  <div class="checkbox__rate checkbox__rate2">
+                   <input type="radio" class="checkbox__player" id="kg1" name="rate">
+                   <label class="checkbox__number" for="kg1"><span>2</span></label>
+                  </div>
+                  <div class="checkbox__rate checkbox__rate3">
+                   <input type="radio" class="checkbox__player" id="kg3" name="rate">
+                   <label class="checkbox__number" for="kg3"><span>3</span></label>
+                  </div>
+               </td>
+             </tr>
+
+               <tr>
+                  <td class="left__modal">Ставка (золото):</td>
+                  <td class="right__modal">
+                    <div class="checkbox__rate checkbox__rate1">
+                     <input type="radio" class="checkbox__player" id="kgg0" name="rate1" checked>
+                     <label  for="kgg0"></label>
+                    </div>
+                    <div class="checkbox__rate checkbox__rate2">
+                     <input type="radio" class="checkbox__player" id="kgg1" name="rate1">
+                     <label  for="kgg1"></label>
+                    </div>
+                    <div class="checkbox__rate checkbox__rate3">
+                     <input type="radio" class="checkbox__player" id="kgg3" name="rate1">
+                     <label   for="kgg3"></label>
+                    </div>
+                 </td>
+               </tr>
+               <tr>
+                  <td class="left__modal modal__no__border">Пароль <span>(Для приватной игры)</span>:</td>
+                  <td class="right__modal modal__no__border"><input type="password" class="modal__input modal__pass"></td>
+               </tr>
+               <tr>
+                  <td class="left__modal modal__no__border">Играть без вип и карт:</td>
+                  <td class="right__modal modal__no__border">
+                    <input type="checkbox" class="modal__checker" required> (повышенный налог на выигрыш) <br>
+                    <input type="checkbox" class="modal__checker" required> без cделок
+                  </td>
+               </tr>
+
+               <tr>
+                  <td class="left__modal modal__no__border"></td>
+                  <td class="right__modal modal__no__border"><input type="submit" class="modal__button" value="СОЗДАТЬ ИГРУ"></шт></td>
+               </tr>
+            </table>
+           </form>
+        </div>
+        <!--<div class="modal-footer">
+           <button type="button" class="btn btn-light" data-bs-dismiss="modal">Закрыть</button>
+        </div>-->
+     </div>
+  </div>
+</div>
+  <div class="modal-backdrop fade show"></div>

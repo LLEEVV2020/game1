@@ -62,7 +62,7 @@ body{
   height: calc(100vh - 205px);
   margin: 0;
   border: 0px solid black;
-  background-image: url(../img/bg-tree4.jpg);
+  background-image: url(../assets/img/bg-tree4.jpg);
   min-height: 680px;
   gap: 3px;
   border-radius: 5px;
@@ -96,10 +96,10 @@ body{
   height: 60px;
   width: 100%;
   border-bottom: 5px solid rgb(13,13,13);
-  background-image: url(../img/bg-tree6.jpg);
+  background-image: url(../assets/img/bg-tree6.jpg);
 }
 .footer-players{
-  background-image: url(../img/bg-tree6.jpg);
+  background-image: url(../assets/img/bg-tree6.jpg);
 
   width: 100%;
   border-top: 12px solid rgb(13,13,13);
@@ -167,14 +167,14 @@ body{
   font-size: 15px;
 }
 .header-menu__1{
-  background-image: url(../img/2.png);
+  background-image: url(../assets/img/2.png);
   background-size: cover;
   i{
       opacity: 0;
   }
 }
 .header-menu__2{
-  background-image: url(../img/3.png);
+  background-image: url(../assets/img/3.png);
   background-size: cover;
   i{
       opacity: 0;
@@ -299,7 +299,7 @@ body{
       border-radius: 50%;
       background-color: #fff;
       position: absolute;
-      background-image: url(../img/bg-tree4.jpg);
+      background-image: url(../assets/img/bg-tree4.jpg);
       z-index: 1;
   }
 }
@@ -329,7 +329,7 @@ body{
 }
 
 .cell-yellow{
-  background: linear-gradient(0deg, #ECE375 0%, #DDA931 100%);
+  background: linear-gradient(0deg, #EDB716 0%, #FFFF7D 100%);
 }
 .cell-lgreen{
   background: linear-gradient(0deg, #2C8A21 0%, #A0D669 100%);
@@ -648,7 +648,7 @@ background: rgb(73,132,40);
       font-weight: bold;
       &::before{
 
-          background: linear-gradient(120deg, #CCB69F 0%, #CAB6A3 100%);
+        background: linear-gradient(120deg, #C8B5A3 0%, #C8B5A3 100%);
       }
   }
   .nav-link--red{
@@ -656,14 +656,8 @@ background: rgb(73,132,40);
       text-shadow: #E5A29D 1px 1px 1px;
       &::before{
           border: 1px solid #EDE2D7;
-          background: linear-gradient(0deg, #BD2C1B 0%, #F18376 100%);
-      }
-  }
-  .nav-link--blue{
-      text-shadow: #c3c3c3 1px 1px 1px;
-      &::before{
-          border: 1px solid #A5C7FB;
-          background: linear-gradient(0deg, #3A6FFC 0%, #3870FC 100%);
+          //background: linear-gradient(0deg, #D82624 0%, #E76A67 100%);
+          background: linear-gradient(180deg, #E76A67 0%, #D82624 100%);
       }
   }
 
@@ -671,7 +665,7 @@ background: rgb(73,132,40);
       text-shadow: #c3c3c3 1px 1px 1px;
       &::before{
           border: 1px solid #A5C7FB;
-          background: linear-gradient(0deg, #2C8A21 0%, #A0D669 100%);
+          background: linear-gradient(0deg, #2AAD13 0%, #62DF07 100%);
       }
   }
 
@@ -679,7 +673,7 @@ background: rgb(73,132,40);
       text-shadow: #c3c3c3 1px 1px 1px;
       &::before{
           border: 1px solid #A5C7FB;
-          background: linear-gradient(0deg, #3A6FFC 0%, #3870FC 100%);
+          background: linear-gradient(180deg, #52B5F9 0%, #1A8CFE 100%);
       }
   }
 
@@ -688,14 +682,14 @@ background: rgb(73,132,40);
       text-shadow: #c3c3c3 1px 1px 1px;
       &::before{
           border: 1px solid #A5C7FB;
-          background: linear-gradient(0deg, #EDB717 0%, #FEFE7B 100%);
+          background: linear-gradient(0deg, #EFBF18 0%, #FEFC2C 100%);
       }
   }
   .nav-link--violet{
       text-shadow: #c3c3c3 1px 1px 1px;
       &::before{
           border: 1px solid #F944A3;
-          background: linear-gradient(0deg, #F944A3 0%, #FCC3E1 100%);
+          background: linear-gradient(0deg, #F94EA8 0%, #FA82C2 100%);
       }
   }
 
@@ -842,7 +836,7 @@ background: rgb(73,132,40);
           width: 91px;
           height: 62px;
 
-          background-image: url(../ui/shapes/game/682.png);
+          background-image: url(../assets/ui/shapes/game/682.png);
       }
   }
 }
@@ -854,7 +848,7 @@ background: rgb(73,132,40);
       font-size: 15px;
       &::after{
           content: "";
-          background-image: url(../ui/shapes/game/809.png);
+          background-image: url(../assets/ui/shapes/game/809.png);
           width: 37px;
           height: 40px;
           margin: 0 auto;
@@ -880,7 +874,7 @@ background: rgb(73,132,40);
       font-size: 16px;
       &::after{
           content: "";
-          background-image: url(../ui/shapes/game/815.png);
+          background-image: url(../assets/ui/shapes/game/815.png);
           width: 28px;
           height: 35px;
       }
@@ -893,7 +887,7 @@ background: rgb(73,132,40);
       font-size: 16px;
       &::after{
           content: "";
-          background-image: url(../ui/shapes/game/819.png);
+          background-image: url(../assets/ui/shapes/game/819.png);
           width: 33px;
           height: 35px;
       }
@@ -911,7 +905,7 @@ background: rgb(73,132,40);
       font-size: 18px;
       &::after{
           content: "";
-          background-image: url(../ui/shapes/game/824.png);
+          background-image: url(../assets/ui/shapes/game/824.png);
           width: 22px;
           height: 43px;
       }
@@ -924,7 +918,7 @@ background: rgb(73,132,40);
       font-size: 14px;
       &::after{
           content: "";
-          background-image: url(../ui/shapes/game/829.png);
+          background-image: url(../assets/ui/shapes/game/829.png);
           width: 31px;
           height: 34px;
           position: absolute;
@@ -941,7 +935,7 @@ background: rgb(73,132,40);
       font-size: 14px;
       &::after{
           content: "";
-          background-image: url(../ui/shapes/game/833.png);
+          background-image: url(../assets/ui/shapes/game/833.png);
           width: 26px;
           height: 39px;
           position: absolute;
@@ -962,7 +956,7 @@ background: rgb(73,132,40);
       font-size: 13px;
       &::after{
           content: "";
-          background-image: url(../ui/shapes/game/837.png);
+          background-image: url(../assets/ui/shapes/game/837.png);
           width: 29px;
           height: 32px;
           position: absolute;
@@ -979,7 +973,7 @@ background: rgb(73,132,40);
       font-size: 12px;
       &::after{
           content: "";
-          background-image: url(../ui/shapes/game/842.png);
+          background-image: url(../assets/ui/shapes/game/842.png);
           width: 26px;
           height: 45px;
           position: absolute;
@@ -996,7 +990,7 @@ background: rgb(73,132,40);
       font-size: 13px;
       &::after{
           content: "";
-          background-image: url(../ui/shapes/game/846.png);
+          background-image: url(../assets/ui/shapes/game/846.png);
           width: 41px;
           height: 41px;
           position: absolute;
@@ -1018,7 +1012,7 @@ background: rgb(73,132,40);
           width: 95px;
           height: 45px;
 
-          background-image: url(../ui/shapes/game/687.png);
+          background-image: url(../assets/ui/shapes/game/687.png);
       }
   }
 }
@@ -1028,7 +1022,7 @@ background: rgb(73,132,40);
   .cell-item{
       &::after{
           content: "";
-          background-image: url(../ui/shapes/game/782.png);
+          background-image: url(../assets/ui/shapes/game/782.png);
           width: 47px;
           height: 42px;
           position: absolute;
@@ -1045,7 +1039,7 @@ background: rgb(73,132,40);
   .cell-item{
       &::after{
           content: "";
-          background-image: url(../ui/shapes/game/788.png);
+          background-image: url(../assets/ui/shapes/game/788.png);
           width: 47px;
           height: 42px;
           position: absolute;
@@ -1061,7 +1055,7 @@ background: rgb(73,132,40);
   .cell-item{
       &::after{
           content: "";
-          background-image: url(../ui/shapes/game/792.png);
+          background-image: url(../assets/ui/shapes/game/792.png);
           width: 47px;
           height: 46px;
           position: absolute;
@@ -1078,7 +1072,7 @@ background: rgb(73,132,40);
   .cell-item{
       &::after{
           content: "";
-          background-image: url(../ui/shapes/game/796.png);
+          background-image: url(../assets/ui/shapes/game/796.png);
           width: 41px;
           height: 42px;
           position: absolute;
@@ -1096,7 +1090,7 @@ background: rgb(73,132,40);
   .cell-item{
       &::after{
           content: "";
-          background-image: url(../ui/shapes/game/800.png);
+          background-image: url(../assets/ui/shapes/game/800.png);
           width: 41px;
           height: 48px;
           position: absolute;
@@ -1116,7 +1110,7 @@ background: rgb(73,132,40);
   .cell-item{
       &::after{
           content: "";
-          background-image: url(../ui/shapes/game/804.png);
+          background-image: url(../assets/ui/shapes/game/804.png);
           width: 42px;
           height: 48px;
           position: absolute;
@@ -1139,7 +1133,7 @@ background: rgb(73,132,40);
           content: "";
           width: 47px;
           height: 48px;
-          background-image: url(../ui/shapes/game/694.png);
+          background-image: url(../assets/ui/shapes/game/694.png);
       }
   }
 }
@@ -1153,7 +1147,7 @@ background: rgb(73,132,40);
           content: "";
           width: 45px;
           height: 46px;
-          background-image: url(../ui/shapes/game/750.png);
+          background-image: url(../assets/ui/shapes/game/750.png);
           position: absolute;
           left: 50%;
           bottom: 6px;
@@ -1175,7 +1169,7 @@ background: rgb(73,132,40);
           content: "";
           width: 45px;
           height: 46px;
-          background-image: url(../ui/shapes/game/778.png);
+          background-image: url(../assets/ui/shapes/game/778.png);
           position: absolute;
           left: 50%;
           bottom: 9px;
@@ -1193,7 +1187,7 @@ background: rgb(73,132,40);
           content: "";
           width: 45px;
           height: 46px;
-          background-image: url(../ui/shapes/game/774.png);
+          background-image: url(../assets/ui/shapes/game/774.png);
           position: absolute;
           left: 50%;
           bottom: 9px;
@@ -1221,7 +1215,7 @@ background: rgb(73,132,40);
           content: "";
           width: 45px;
           height: 48px;
-          background-image: url(../ui/shapes/game/770.png);
+          background-image: url(../assets/ui/shapes/game/770.png);
           position: absolute;
           left: 50%;
           bottom: 9px;
@@ -1240,7 +1234,7 @@ background: rgb(73,132,40);
           content: "";
           width: 45px;
           height: 48px;
-          background-image: url(../ui/shapes/game/766.png);
+          background-image: url(../assets/ui/shapes/game/766.png);
           position: absolute;
           left: 50%;
           bottom: 9px;
@@ -1262,7 +1256,7 @@ background: rgb(73,132,40);
           content: "";
           width: 45px;
           height: 48px;
-          background-image: url(../ui/shapes/game/762.png);
+          background-image: url(../assets/ui/shapes/game/762.png);
           position: absolute;
           left: 50%;
           bottom: 9px;
@@ -1289,7 +1283,7 @@ background: rgb(73,132,40);
           content: "";
           width: 45px;
           height: 48px;
-          background-image: url(../ui/shapes/game/758.png);
+          background-image: url(../assets/ui/shapes/game/758.png);
           position: absolute;
           left: 50%;
           bottom: 9px;
@@ -1312,7 +1306,7 @@ background: rgb(73,132,40);
           content: "";
           width: 45px;
           height: 48px;
-          background-image: url(../ui/shapes/game/754.png);
+          background-image: url(../assets/ui/shapes/game/754.png);
           position: absolute;
           left: 50%;
           bottom: 9px;
@@ -1336,7 +1330,7 @@ background: rgb(73,132,40);
           content: "";
           width: 45px;
           height: 48px;
-          background-image: url(../ui/shapes/game/744.png);
+          background-image: url(../assets/ui/shapes/game/744.png);
           position: absolute;
           left: 50%;
           bottom: 9px;
@@ -1360,7 +1354,7 @@ background: rgb(73,132,40);
           content: "";
           width: 69px;
           height: 62px;
-          background-image: url(../ui/shapes/game/699.png);
+          background-image: url(../assets/ui/shapes/game/699.png);
       }
   }
 }
@@ -1375,7 +1369,7 @@ background: rgb(73,132,40);
           content: "";
           width: 45px;
           height: 44px;
-          background-image: url(../ui/shapes/game/740.png);
+          background-image: url(../assets/ui/shapes/game/740.png);
           background-position: right;
           position: absolute;
           right: 7px;
@@ -1399,7 +1393,7 @@ background: rgb(73,132,40);
           content: "";
           width: 45px;
           height: 44px;
-          background-image: url(../ui/shapes/game/736.png);
+          background-image: url(../assets/ui/shapes/game/736.png);
           background-position: right;
           position: absolute;
           right: 7px;
@@ -1423,7 +1417,7 @@ background: rgb(73,132,40);
           content: "";
           width: 45px;
           height: 44px;
-          background-image: url(../ui/shapes/game/732.png);
+          background-image: url(../assets/ui/shapes/game/732.png);
           background-position: right;
           position: absolute;
           right: 7px;
@@ -1447,7 +1441,7 @@ background: rgb(73,132,40);
           content: "";
           width: 25px;
           height: 44px;
-          background-image: url(../ui/shapes/game/728.png);
+          background-image: url(../assets/ui/shapes/game/728.png);
           background-position: right;
           position: absolute;
           right: 0;
@@ -1472,7 +1466,7 @@ background: rgb(73,132,40);
           content: "";
           width: 40px;
           height: 44px;
-          background-image: url(../ui/shapes/game/724.png);
+          background-image: url(../assets/ui/shapes/game/724.png);
           background-position: right;
           position: absolute;
           right: 0;
@@ -1501,7 +1495,7 @@ background: rgb(73,132,40);
           content: "";
           width: 50px;
           height: 39px;
-          background-image: url(../ui/shapes/game/709.png);
+          background-image: url(../assets/ui/shapes/game/709.png);
           background-position: right;
           position: absolute;
           right: 0;

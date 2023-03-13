@@ -1,0 +1,433 @@
+<div class="start-screen">
+
+  <div class="player-panel">
+    <div class="player-panel__player">
+      <div class="player-panel__photo">
+        <img src="./assets/img/player.jpg" alt="">
+        <span>Менеджер</span>
+      </div>
+      <div class="player-panel__data">
+        <div class="player-panel-data__item player-panel-data__item-first ">Максим Петрова</div>
+        <div class="player-panel-data__item">
+          <div class="data__item">Золото </div>
+          <div class="data__item data__item-mass">0.10 кг. <div class="add__btn">+</div></div>
+        </div>
+        <div class="player-panel-data__item">
+          <div class="data__item">Общий капитал </div>
+          <div class="data__item ">23 687 650$</div>
+        </div>
+        <div class="player-panel-data__item">
+          <div class="data__item">Общий неделю </div>
+          <div class="data__item ">2 687 650$</div>
+        </div>
+      </div>
+
+    </div>
+    <div class="player-panel__buttons">
+      <div class="player-panel__item">
+        <div class="player-panel__btn btn--data"><i class="bi bi-database"></i></div>
+        <div class="player-panel__text">Данные</div>
+      </div>
+      <div class="player-panel__item">
+        <div class="player-panel__btn btn--graph"><i class="bi bi-graph-up-arrow"></i></div>
+        <div class="player-panel__text">Рейтинг</div>
+      </div>
+      <div class="player-panel__item">
+        <div class="player-panel__btn btn--basket"><i class="bi bi-basket"></i></div>
+        <div class="player-panel__text">Магазин</div>
+      </div>
+      <div class="player-panel__item">
+        <div class="player-panel__btn btn--safe"><i class="bi bi-safe"></i></div>
+        <div class="player-panel__text">Банк</div>
+      </div>
+
+      <div class="player-panel__item local-game">
+        <div class="player-panel__btn ">Играть <br> с другом</div>
+      </div>
+      <div class="player-panel__item new-game">
+        <div class="player-panel__btn ">Создать <br> игру</div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <!--Первый чат-->
+  <div class="cell-wrapp">
+    <div class="cell-alert">
+      <div class="nav nav-pills " id="pills-tab1" role="tablist">
+        <button class="nav-link nav-link--grey active" id="pills-home1-tab" data-bs-toggle="pill" data-bs-target="#pills-home1" type="button" role="tab" aria-controls="pills-home1" aria-selected="true"><span>Список игр</span></button>
+        <button class="nav-link nav-link--grey" id="pills-profile1-tab" data-bs-toggle="pill" data-bs-target="#pills-profile1" type="button" role="tab" aria-controls="pills-profile1" aria-selected="false"><span>Текущие игры</span></button>
+      </div>
+      <div class="tab-content" id="pills-tab1Content">
+        <div class="tab-pane tab-pane--grey fade show active" id="pills-home1" role="tabpanel" aria-labelledby="pills-home1-tab">
+          <div class="tab-pane__overflow">
+            <div class="tab-pane__item">
+
+              <div class="searchgame">
+
+                  <!--<div class="searchgame__container-filtes">
+                    <p>Название игры: <input></p>
+                    <p>Игроков: <input></p>
+                    <p>Ставка: <input class="searchgame__container-filtes-bet"></p>
+                  </div>-->
+                  <div class="searchgame__container-choice searchgame__container-choice-custom">
+                    <div class="searchgame__container-choice-item searchgame__container-choice-item2">
+                      <div class="searchgame__container-choice-item-name">
+                        Название игры
+                        <input type="text">
+                      </div>
+                      <div class="searchgame__container-choice-item-player">
+                        Игроки
+                        <input type="text">
+                      </div>
+                      <div class="searchgame__container-choice-item-deal2">
+                        Ставка
+                        <input type="text">
+                      </div>
+                      <div class="searchgame__container-choice-item-bet">Поле</div>
+                      <div class="searchgame__container-choice-item-deal">Vip Карта</div>
+                      <div class="searchgame__container-choice-item-play">Играть Смотреть</div>
+                    </div>
+                  </div>
+                  <div class="searchgame__container-choice slimScroll">
+
+                    <div class="searchgame__container-choice-item">
+                      <div class="searchgame__container-choice-item-name"><p>Имя</p></div>
+                      <div class="searchgame__container-choice-item-player">
+                        <img src="./assets/img/player/1.jpg" alt="">
+                        <img src="./assets/img/player/2.jpg" alt="">
+                        <img src="./assets/img/player/3.jpg" alt="">
+                        <img src="./assets/img/player/4.jpg" alt="">
+                        <img src="./assets/img/player/5.jpg" alt="">
+                      </div>
+                      <div class="searchgame__container-choice-item-deal2"></div>
+                      <div class="searchgame__container-choice-item-bet"><p>1</p></div>
+                      <div class="searchgame__container-choice-item-deal"><img></div>
+                      <div class="searchgame__container-choice-item-play"><button>Играть</button></div>
+                    </div>
+                    <div class="searchgame__container-choice-item">
+                      <div class="searchgame__container-choice-item-name"><p>Имя</p></div>
+                      <div class="searchgame__container-choice-item-player">
+                        <img src="./assets/img/player/6.jpg" alt="">
+                        <img src="./assets/img/player/7.jpg" alt="">
+                      </div>
+                      <div class="searchgame__container-choice-item-deal2"></div>
+                      <div class="searchgame__container-choice-item-bet"><p>1</p></div>
+                      <div class="searchgame__container-choice-item-deal"><img></div>
+                      <div class="searchgame__container-choice-item-play"><button>Играть</button></div>
+                    </div>
+                    <div class="searchgame__container-choice-item">
+                      <div class="searchgame__container-choice-item-name"><p>Имя</p></div>
+                      <div class="searchgame__container-choice-item-player">
+                        <img src="./assets/img/player/8.jpg" alt="">
+                        <img src="./assets/img/player/9.jpg" alt="">
+                        <img src="./assets/img/player/10.jpg" alt="">
+                      </div>
+                      <div class="searchgame__container-choice-item-deal2"></div>
+                      <div class="searchgame__container-choice-item-bet"><p>1</p></div>
+                      <div class="searchgame__container-choice-item-deal"><img></div>
+                      <div class="searchgame__container-choice-item-play"><button>Играть</button></div>
+                    </div>
+                    <div class="searchgame__container-choice-item">
+                      <div class="searchgame__container-choice-item-name"><p>Имя</p></div>
+                      <div class="searchgame__container-choice-item-player">
+                        <img src="./assets/img/player/1.jpg" alt="">
+                        <img src="./assets/img/player/2.jpg" alt="">
+                        <img src="./assets/img/player/3.jpg" alt="">
+                        <img src="./assets/img/player/4.jpg" alt="">
+                        <img src="./assets/img/player/5.jpg" alt="">
+                      </div>
+                      <div class="searchgame__container-choice-item-deal2"></div>
+                      <div class="searchgame__container-choice-item-bet"><p>1</p></div>
+                      <div class="searchgame__container-choice-item-deal"><img></div>
+                      <div class="searchgame__container-choice-item-play"><button>Играть</button></div>
+                    </div>
+                    <div class="searchgame__container-choice-item">
+                      <div class="searchgame__container-choice-item-name"><p>Имя</p></div>
+                      <div class="searchgame__container-choice-item-player">
+                        <img src="./assets/img/player/6.jpg" alt="">
+                        <img src="./assets/img/player/7.jpg" alt="">
+                        <img src="./assets/img/player/8.jpg" alt="">
+                        <img src="./assets/img/player/9.jpg" alt="">
+                        <img src="./assets/img/player/10.jpg" alt="">
+                      </div>
+                      <div class="searchgame__container-choice-item-deal2"></div>
+                      <div class="searchgame__container-choice-item-bet"><p>1</p></div>
+                      <div class="searchgame__container-choice-item-deal"><img></div>
+                      <div class="searchgame__container-choice-item-play"><button>Играть</button></div>
+                    </div>
+                  </div>
+
+
+              </div>
+
+
+            </div>
+          </div>
+
+        </div>
+        <div class="tab-pane tab-pane--grey fade" id="pills-profile1" role="tabpanel" aria-labelledby="pills-profile1-tab">
+          <div class="tab-pane__overflow">
+            <div class="tab-pane__item">
+              Идет загрузка...
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="playertable__container">
+
+      <div class="nav nav-pills "  role="tablist">
+        <button class="nav-link nav-link--grey active" id="pills-home2-tab" data-bs-toggle="pill" data-bs-target="#pills-home2" type="button" role="tab" aria-controls="pills-home2" aria-selected="true"><span>Список игр</span></button>
+        <button class="nav-link nav-link--grey" id="pills-profile2-tab" data-bs-toggle="pill" data-bs-target="#pills-profile2" type="button" role="tab" aria-controls="pills-profile2" aria-selected="false"><span>Текущие игры</span></button>
+      </div>
+      <div class="tab-content">
+        <div class="tab-pane tab-pane--grey fade show active" id="pills-home2" role="tabpanel" aria-labelledby="pills-home2-tab">
+          <div class="tab-pane__overflow slimScroll">
+            <div class="tab-pane__item">
+
+              <div class="playertable__container-value"><img src="./img/PlayerAvatar.jpg" alt="">
+                <p>User 1 (Гранд)</p><img src="./img/apple.jpg" alt="">
+              </div>
+              <div class="playertable__container-value"><img src="./img/PlayerAvatar.jpg" alt="">
+                <p>User 2 (Богач)</p><img src="./img/android.jpg" alt="">
+              </div>
+              <div class="playertable__container-value"><img src="./img/PlayerAvatar.jpg" alt="">
+                <p>User 3 (Коммерсант)</p><img src="./img/world.jpg" alt="">
+              </div>
+              <div class="playertable__container-value"><img src="./img/PlayerAvatar.jpg" alt="">
+                <p>User 4 (Магнат)</p><img src="./img/android.jpg" alt="">
+              </div>
+              <div class="playertable__container-value"><img src="./img/PlayerAvatar.jpg" alt="">
+                <p>User 5 (Богач)</p><img src="./img/android.jpg" alt="">
+              </div>
+              <div class="playertable__container-value"><img src="./img/PlayerAvatar.jpg" alt="">
+                <p>User 6 (Монополист)</p><img src="./img/world.jpg" alt="">
+              </div>
+              <div class="playertable__container-value"><img src="./img/PlayerAvatar.jpg" alt="">
+                <p>User 7 (Менеджер)</p><img src="./img/world.jpg" alt="">
+              </div>
+              <div class="playertable__container-value"><img src="./img/PlayerAvatar.jpg" alt="">
+                <p>User 8 (Капиталист)</p><img src="./img/world.jpg" alt="">
+              </div>
+              <div class="playertable__container-value"><img src="./img/PlayerAvatar.jpg" alt="">
+                <p>User 9 (Бизнесмен)</p><img src="./img/apple.jpg" alt="">
+              </div>
+              <div class="playertable__container-value"><img src="./img/PlayerAvatar.jpg" alt="">
+                <p>User 10 (Легенда)</p><img src="./img/apple.jpg" alt="">
+              </div>
+              <div class="playertable__container-value"><img src="./img/PlayerAvatar.jpg" alt="">
+                <p>User 11 (Инвестор)</p><img src="./img/apple.jpg" alt="">
+              </div>
+              <div class="playertable__container-value"><img src="./img/PlayerAvatar.jpg" alt="">
+                <p>User 12 (Президент)</p><img src="./img/android.jpg" alt="">
+              </div>
+              <div class="playertable__container-value"><img src="./img/PlayerAvatar.jpg" alt="">
+                <p>User 13 (Гранд)</p><img src="./img/apple.jpg" alt="">
+              </div>
+              <div class="playertable__container-value"><img src="./img/PlayerAvatar.jpg" alt="">
+                <p>User 14 (Олигарх)</p><img src="./img/apple.jpg" alt="">
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane tab-pane--grey fade" id="pills-profile2" role="tabpanel" aria-labelledby="pills-profile2-tab">
+          <div class="tab-pane__overflow">
+            <div class="tab-pane__item">
+              <div class="playertable__container-value"><img src="./img/PlayerAvatar.jpg" alt="">
+                <p>User 1 (Гранд)</p><img src="./img/apple.jpg" alt="">
+              </div>
+              <div class="playertable__container-value"><img src="./img/PlayerAvatar.jpg" alt="">
+                <p>User 2 (Богач)</p><img src="./img/android.jpg" alt="">
+              </div>
+              <div class="playertable__container-value"><img src="./img/PlayerAvatar.jpg" alt="">
+                <p>User 3 (Коммерсант)</p><img src="./img/world.jpg" alt="">
+              </div>
+              <div class="playertable__container-value"><img src="./img/PlayerAvatar.jpg" alt="">
+                <p>User 4 (Магнат)</p><img src="./img/android.jpg" alt="">
+              </div>
+              <div class="playertable__container-value"><img src="./img/PlayerAvatar.jpg" alt="">
+                <p>User 5 (Богач)</p><img src="./img/android.jpg" alt="">
+              </div>
+              <div class="playertable__container-value"><img src="./img/PlayerAvatar.jpg" alt="">
+                <p>User 6 (Монополист)</p><img src="./img/world.jpg" alt="">
+              </div>
+              <div class="playertable__container-value"><img src="./img/PlayerAvatar.jpg" alt="">
+                <p>User 7 (Менеджер)</p><img src="./img/world.jpg" alt="">
+              </div>
+              <div class="playertable__container-value"><img src="./img/PlayerAvatar.jpg" alt="">
+                <p>User 8 (Капиталист)</p><img src="./img/world.jpg" alt="">
+              </div>
+              <div class="playertable__container-value"><img src="./img/PlayerAvatar.jpg" alt="">
+                <p>User 9 (Бизнесмен)</p><img src="./img/apple.jpg" alt="">
+              </div>
+              <div class="playertable__container-value"><img src="./img/PlayerAvatar.jpg" alt="">
+                <p>User 10 (Легенда)</p><img src="./img/apple.jpg" alt="">
+              </div>
+              <div class="playertable__container-value"><img src="./img/PlayerAvatar.jpg" alt="">
+                <p>User 11 (Инвестор)</p><img src="./img/apple.jpg" alt="">
+              </div>
+              <div class="playertable__container-value"><img src="./img/PlayerAvatar.jpg" alt="">
+                <p>User 12 (Президент)</p><img src="./img/android.jpg" alt="">
+              </div>
+              <div class="playertable__container-value"><img src="./img/PlayerAvatar.jpg" alt="">
+                <p>User 13 (Гранд)</p><img src="./img/apple.jpg" alt="">
+              </div>
+              <div class="playertable__container-value"><img src="./img/PlayerAvatar.jpg" alt="">
+                <p>User 14 (Олигарх)</p><img src="./img/apple.jpg" alt="">
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+
+    </div>
+
+    <!--Второй чат-->
+    <div class="cell-alert cell-alert--bottom">
+      <div class="nav nav-pills " id="pills-tab" role="tablist">
+
+        <button class="nav-link nav-link--grey " id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true"><span>Друзья</span></button>
+        <button class="nav-link nav-link--grey active" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><span>Чат</span></button>
+
+      </div>
+      <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane tab-pane--grey fade  " id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+          <div class="tab-pane__overflow">
+            <div class="tab-pane__item">
+              Ходит
+              <span class="blue">Маша Иванова</span>
+            </div>
+            <div class="tab-pane__item">
+              <span class="blue">Маша Иванова</span>
+              выбросил кубики 6:2
+            </div>
+            <div class="tab-pane__item">
+              <span class="blue">Маша Иванова</span>
+              попадает на <span class="white">Ночной клуб</span>
+              к оплате <span class="white">36,000 $</span>
+            </div>
+            <div class="tab-pane__item">
+              Ходит
+              <span class="red">Света Петрова</span>
+            </div>
+            <div class="tab-pane__item">
+              <span class="red">Света Петрова</span>
+              выбросил кубики 6:2
+            </div>
+            <div class="tab-pane__item">
+              <span class="red">Света Петрова</span>
+              попадает на <span class="white">Ночной клуб</span>
+              к оплате <span class="white">36,000 $</span>
+            </div>
+            <div class="tab-pane__item">
+              Ходит
+              <span class="blue">Маша Иванова</span>
+            </div>
+            <div class="tab-pane__item">
+              <span class="blue">Маша Иванова</span>
+              выбросил кубики 6:2
+            </div>
+            <div class="tab-pane__item">
+              <span class="blue">Маша Иванова</span>
+              попадает на <span class="white">Ночной клуб</span>
+              к оплате <span class="white">36,000 $</span>
+            </div>
+            <div class="tab-pane__item">
+              Ходит
+              <span class="red">Света Петрова</span>
+            </div>
+            <div class="tab-pane__item">
+              <span class="red">Света Петрова</span>
+              выбросил кубики 6:2
+            </div>
+            <div class="tab-pane__item">
+              <span class="red">Света Петрова</span>
+              попадает на <span class="white">Ночной клуб</span>
+              к оплате <span class="white">36,000 $</span>
+            </div>
+            <div class="tab-pane__item">
+              Ходит
+              <span class="blue">Маша Иванова</span>
+            </div>
+            <div class="tab-pane__item">
+              <span class="blue">Маша Иванова</span>
+              выбросил кубики 6:2
+            </div>
+            <div class="tab-pane__item">
+              <span class="blue">Маша Иванова</span>
+              попадает на <span class="white">Ночной клуб</span>
+              к оплате <span class="white">36,000 $</span>
+            </div>
+            <div class="tab-pane__item">
+              Ходит
+              <span class="red">Света Петрова</span>
+            </div>
+            <div class="tab-pane__item">
+              <span class="red">Света Петрова</span>
+              выбросил кубики 6:2
+            </div>
+            <div class="tab-pane__item">
+              <span class="red">Света Петрова</span>
+              попадает на <span class="white">Ночной клуб</span>
+              к оплате <span class="white">36,000 $</span>
+            </div>
+          </div>
+          <div class="tab-pane__btns">
+            <input class="form-control" type="text">
+            <button class="btn">Отправить</button>
+          </div>
+        </div>
+        <div class="tab-pane tab-pane--grey fade show active" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+          <div class="tab-pane__overflow slimScroll" style="padding-bottom: 30px;">
+            <div class="tab-pane__item">
+              Ходит
+              <span class="red">Света Петрова</span>
+            </div>
+            <div class="tab-pane__item">
+              <span class="red">Света Петрова</span>
+              выбросил кубики 6:2
+            </div>
+            <div class="tab-pane__item">
+              <span class="red">Света Петрова</span>
+              попадает на <span class="white">Ночной клуб</span>
+              к оплате <span class="white">36,000 $</span>
+            </div>
+            <div class="tab-pane__item">
+              Ходит
+              <span class="blue">Маша Иванова</span>
+            </div>
+            <div class="tab-pane__item">
+              <span class="blue">Маша Иванова</span>
+              выбросил кубики 6:2
+            </div>
+            <div class="tab-pane__item">
+              <span class="blue">Маша Иванова</span>
+              попадает на <span class="white">Ночной клуб</span>
+              к оплате <span class="white">36,000 $</span>
+            </div>
+          </div>
+          <div class="tab-pane__btns">
+            <input class="form-control" type="text">
+            <button class="btn">Отправить</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+</div>
