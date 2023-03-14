@@ -1,125 +1,120 @@
 // Артём здесь верстай
-*,
-*::after,
-*::before
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-:root {
-    --color-pink: #D3089B;
-    --color-green: #37BA00;
-    --color-yellow: #F3D062;
-    --color-red: #E02E0B;
-    --color-blue: #0681FD;
-}
-
-/* body {
-    background: #353535;
-} */
-
 .footer__new {
-    width: 100%;
-    min-height: 150px;
-    display: flex;
-    align-items: flex-end;
-}
 
-.players__cards {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    width: 1024px;
-    margin: 0 auto;
-}
+    *,
+    *::after,
+    *::before {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 
-.player__card {
-    display: flex;
-    gap: 8px;
-    border-radius: 12px;
-    -webkit-border-radius: 12px;
-    -moz-border-radius: 12px;
-    -ms-border-radius: 12px;
-    -o-border-radius: 12px;
-    padding: 5px;
-}
+    :root {
+        --color-pink: #D3089B;
+        --color-green: #37BA00;
+        --color-yellow: #F3D062;
+        --color-red: #E02E0B;
+        --color-blue: #0681FD;
+    }
 
-.player__card-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
+    .footer__new {
+        width: 100%;
+        min-height: 150px;
+        display: flex;
+        align-items: flex-end;
+    }
 
-.card__player-info {}
+    .players__cards {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        width: 1024px;
+        margin: 0 auto;
+    }
 
-.player__card-title {
-    font-size: 12px;
-}
+    .player__card {
+        display: flex;
+        gap: 8px;
+        border-radius: 12px;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        -ms-border-radius: 12px;
+        -o-border-radius: 12px;
+        padding: 5px;
+    }
 
-.player__card-desc {
-    color: #FF0000;
-    font-size: 12px;
-}
+    .player__card-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
 
-.card__money-info {
-    display: grid;
-    color: rgba(0, 0, 0, .7);
-    grid-row-gap: 5px;
-}
+    .card__player-info {}
 
-.player__card-money {
-    position: relative;
-    padding-left: 10px;
-    font-size: 12px;
-}
-.player__card-money::before {
-    content: '$';
-    position: absolute;
-    top: -30%;
-    left: 0;
-    color: #4D912B;
-    font-size: 12px;
-    font-weight: 700;
-}
+    .player__card-title {
+        font-size: 12px;
+    }
 
-.player__card-allMoney {
-    position: relative;
-    padding-left: 10px;
-    font-size: 12px;
-}
+    .player__card-desc {
+        color: #FF0000;
+        font-size: 12px;
+    }
 
-.player__card-allMoney::before {
-    content: 'A';
-    position: absolute;
-    top: -30%;
-    left: 0;
-    color: #FF0000;
-    font-size: 12px;
-    font-weight: 700;
-}
+    .card__money-info {
+        display: grid;
+        color: rgba(0, 0, 0, .7);
+        grid-row-gap: 5px;
+    }
 
-.player__card-photo {
-    width: 60px;
-    height: 60px;
-    border-radius: 12px;
-    -webkit-border-radius: 12px;
-    -moz-border-radius: 12px;
-    -ms-border-radius: 12px;
-    -o-border-radius: 12px;
-    overflow: hidden;
-}
+    .player__card-money,
+    .player__card-allMoney
+    {
+        position: relative;
+        padding-left: 10px;
+        font-size: 12px;
+    }
 
-.player__photo-pic {
-    min-width: 100%;
-    // max-width: 150%;
-}
+    .player__card-money::before {
+        content: '$';
+        position: absolute;
+        top: -30%;
+        left: 0;
+        color: #4D912B;
+        font-size: 12px;
+        font-weight: 700;
+    }
 
-/* Цвета карточек */
+    .player__card-allMoney::before {
+        content: 'A';
+        position: absolute;
+        top: -30%;
+        left: 0;
+        color: #FF0000;
+        font-size: 12px;
+        font-weight: 700;
+    }
 
-.player-1 {
-    border: 3px solid var(--color-pink);
-    /* background: rgba(211, 8, 155, .2); */
-    background: linear-gradient(180deg, rgba(180, 43, 220, 0) 0%, rgba(181, 42, 221, 0.44) 56.25%, rgba(185, 44, 225, 0.8) 100%);
+    .player__card-photo {
+        width: 60px;
+        height: 60px;
+        border-radius: 12px;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        -ms-border-radius: 12px;
+        -o-border-radius: 12px;
+        overflow: hidden;
+    }
+
+    .player__photo-pic {
+        min-width: 100%;
+        // max-width: 150%;
+    }
+
+    /* Цвета карточек */
+
+    .player-1 {
+        border: 3px solid var(--color-pink);
+        /* background: rgba(211, 8, 155, .2); */
+        background: linear-gradient(180deg, rgba(180, 43, 220, 0) 0%, rgba(181, 42, 221, 0.44) 56.25%, rgba(185, 44, 225, 0.8) 100%);
+    }
 }
