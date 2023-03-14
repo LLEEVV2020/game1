@@ -17,8 +17,8 @@
   <div class="site-container d-flex justify-content-center align-items-center">
 
     @include('partials/header1.html')
-    <div id="board" class="board-grid" >
-      @include('partials/map.html')
+    <div id="board" class="board-grid board-grid--bg-black" >
+      @include('partials/map2.html')
       @include('partials/make.html')
     </div>
 
@@ -50,6 +50,18 @@
 
       }
   </script>
+
+
+	<!--slider-scroll-->
+	<script>
+		var slimyRange = document.getElementById("myRange");
+		var output = document.getElementById("scrollvalue");
+		output.innerHTML = slimyRange.value;
+
+		slimyRange.oninput = function() {
+		  output.innerHTML = this.value;
+		}
+	</script>
 
   <script src="assets/js/bootstrap.bundle.min.js"></script>
 
