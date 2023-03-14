@@ -55,10 +55,13 @@
 
 .card__player-info {}
 
-.player__card-title {}
+.player__card-title {
+    font-size: 12px;
+}
 
 .player__card-desc {
     color: #FF0000;
+    font-size: 12px;
 }
 
 .card__money-info {
