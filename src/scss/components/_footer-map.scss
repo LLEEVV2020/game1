@@ -51,24 +51,26 @@
 
     .card__player-info {}
 
-    .player__card-title {
+    .player__card-title,
+    .player__card-desc {
         font-size: 12px;
+        line-height: 10px;
+        font-weight: 700;
     }
 
     .player__card-desc {
         color: #FF0000;
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .card__money-info {
         display: grid;
-        color: rgba(0, 0, 0, .7);
-        grid-row-gap: 5px;
+        color: rgba(0, 0, 0, .6);
+        // grid-row-gap: 5px;
     }
 
     .player__card-money,
-    .player__card-allMoney
-    {
+    .player__card-allMoney {
         position: relative;
         padding-left: 10px;
         font-size: 12px;
@@ -107,7 +109,7 @@
 
     .player__photo-pic {
         min-width: 100%;
-        // max-width: 150%;
+        max-width: 150%;
     }
 
     /* Цвета карточек */
