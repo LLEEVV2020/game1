@@ -1,18 +1,225 @@
 <!--Мизам-->
 
 <div class="modal fade show" id="exampleDarkModal" tabindex="-1" aria-modal="true" role="dialog" style="display: block;">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-     <div class="modal-content bg-dark">
-        <div class="modal-header">
-           <h4 class="modal-title text-white">название</h4>
+  <div class="modal-dialog modal-lg modal-dialog-centered modal_width">
+     <div class="modal-content bg-dark modal_height">
+        <div class="modal-header modal_position_fixed">
+           <h4 class="modal-title text-white">Магазин</h4>
            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
+		<div class="nav-bar">
+			<ul>
+				<li><a href="#" class="active">Карты</a></li>
+				<li><a href="#">Наборы</a></li>
+				<li><a href="#">Банк</a></li>
+			</ul>
+		</div>
         <div class="modal-body text-white">
-          <div class="test-1">просто провыерить что всё подлключилось.
-            Удаляй эту тестовую информацию. Можешь смело видоизменять модалку,
-            только для этого добавляй дополнительный класс</div>
+			<div class="scrolls-card">
+				<div class="store-cards">
+					<div class="store__cards__title">НАЛОГОВЫЙ ИММУНИТЕТ</div>
+					<div class="store__cards__text">Приобретая данную VIP карту Вы получаете уменьшение стоимости платы при попадании на клетку "Налог"</div>
+					<div class="cards-wrapper">
+						<div class="store__card">
+							<img src="./img/tax_immun_1.png" class="card__img" alt="Карта">
+							<div class="card__title">Оплата 95% от Налога</div>
+							<div class="card__price">цена: 2кг</div>
+							<div class="card__requirements">Требования: <span>Менеджер</span></div>
+							<div class="card__actives">Активна: <span>3 дня</span></div>
+						</div>
+						<div class="store__card">
+							<img src="./img/tax_immun_2.png" class="card__img" alt="Карта">
+							<div class="card__title">Оплата 85% от Налога</div>
+							<div class="card__price">цена: 6кг</div>
+							<div class="card__requirements">Требования: <span>Коммерсант</span></div>
+							<div class="card__actives">Активна: <span>7 дней</span></div>
+						</div>
+						<div class="store__card">
+							<img src="./img/tax_immun_3.png" class="card__img" alt="Карта">
+							<div class="card__title">Оплата 80% от Налога</div>
+							<div class="card__price">цена: 10кг</div>
+							<div class="card__requirements">Требования: <span>Банкир</span></div>
+							<div class="card__actives">Активна: <span>10 дней</span></div>
+						</div>
+						<div class="store__card">
+							<img src="./img/tax_immun_4.png" class="card__img" alt="Карта">
+							<div class="card__title">Оплата 70% от Налога</div>
+							<div class="card__price">цена: 20кг</div>
+							<div class="card__requirements">Требования: <span>Богач</span></div>
+							<div class="card__actives">Активна: <span>12 дней</span></div>
+						</div>
+					</div>
+				</div>
+				<div class="store-cards">
+					<div class="store__cards__title">АКТИВНЫЙ ИГРОК</div>
+					<div class="store__cards__text">Имея эту VIP карту игрок не пропускает ход при попадании на клетку «Пропустить ход»</div>
+					<div class="cards-wrapper">
+						<div class="store__card">
+							<img src="./img/active_player.png" class="card__img" alt="Карта">
+							<div class="card__title">Иммунитет к пропуску хода</div>
+							<div class="card__price">цена: 8кг</div>
+							<div class="card__requirements">Требования: <span>Бизнесмен</span></div>
+							<div class="card__actives">Активна: <span>12 дней</span></div>
+						</div>
+					</div>
+				</div>
+				<div class="store-cards">
+					<div class="store__cards__title">УСПЕШНЫЙ БИЗНЕСМЕН</div>
+					<div class="store__cards__text">Имея данную VIP карту игрок получает большую прибыль при попадании на его фирмы других игроков</div>
+					<div class="cards-wrapper">
+						<div class="store__card">
+							<img src="./img/smash.png" class="card__img" alt="Карта">
+							<div class="card__title">Плюс 5% с аренды<br>Вашей фирмы</div>
+							<div class="card__price">цена: 6кг</div>
+							<div class="card__requirements">Требования: <span>Бизнесмен</span></div>
+							<div class="card__actives">Активна: <span>5 дней</span></div>
+						</div>
+						<div class="store__card">
+							<img src="./img/smash.png" class="card__img" alt="Карта">
+							<div class="card__title">Плюс 10% с аренды<br>Вашей фирмы</div>
+							<div class="card__price">цена: 10кг</div>
+							<div class="card__requirements">Требования: <span>Коммерсант</span></div>
+							<div class="card__actives">Активна: <span>7 дней</span></div>
+						</div>
+						<div class="store__card">
+							<img src="./img/smash.png" class="card__img" alt="Карта">
+							<div class="card__title">Плюс 15% с аренды<br>Вашей фирмы</div>
+							<div class="card__price">цена: 30кг</div>
+							<div class="card__requirements">Требования: <span>Гранд</span></div>
+							<div class="card__actives">Активна: <span>12 дней</span></div>
+						</div>
+					</div>
+				</div>
+				<div class="store-cards">
+					<div class="store__cards__title">АВТОРИТЕТ</div>
+					<div class="store__cards__text">Имея эту VIP карту игрок платит аренду другим игрокам по меньшей стоимости</div>
+					<div class="cards-wrapper">
+						<div class="store__card">
+							<img src="./img/authority_1.png" class="card__img" alt="Карта">
+							<div class="card__title">Оплата 95% от аренды<br>чужой фирмы</div>
+							<div class="card__price">цена: 5кг</div>
+							<div class="card__requirements">Требования: <span>Бизнесмен</span></div>
+							<div class="card__actives">Активна: <span>5 дней</span></div>
+						</div>
+						<div class="store__card">
+							<img src="./img/authority_1.png" class="card__img" alt="Карта">
+							<div class="card__title">Оплата 90% от аренды<br>чужой фирмы</div>
+							<div class="card__price">цена: 10кг</div>
+							<div class="card__requirements">Требования: <span>Банкир</span></div>
+							<div class="card__actives">Активна: <span>7 дней</span></div>
+						</div>
+						<div class="store__card">
+							<img src="./img/authority_1.png" class="card__img" alt="Карта">
+							<div class="card__title">Оплата 85% от аренды<br>чужой фирмы</div>
+							<div class="card__price">цена: 26кг</div>
+							<div class="card__requirements">Требования: <span>Богач</span></div>
+							<div class="card__actives">Активна: <span>12 дней</span></div>
+						</div>
+					</div>
+				</div>
+				<div class="store-cards">
+					<div class="store__cards__title">ЛИДЕР</div>
+					<div class="store__cards__text">Приобретая эту VIP карту у игрока появляется приоритет первого хода</div>
+					<div class="cards-wrapper">
+						<div class="store__card">
+							<img src="./img/lider_1.png" class="card__img" alt="Карта">
+							<div class="card__title">Первый ход 1 уровень</div>
+							<div class="card__price">цена: 2кг</div>
+							<div class="card__requirements">Требования: <span>Менеджер</span></div>
+							<div class="card__actives">Активна: <span>5 дней</span></div>
+						</div>
+						<div class="store__card">
+							<img src="./img/lider_1.png" class="card__img" alt="Карта">
+							<div class="card__title">Первый ход 2 уровень</div>
+							<div class="card__price">цена: 6кг</div>
+							<div class="card__requirements">Требования: <span>Бизнесмен</span></div>
+							<div class="card__actives">Активна: <span>7 дней</span></div>
+						</div>
+						<div class="store__card">
+							<img src="./img/lider_1.png" class="card__img" alt="Карта">
+							<div class="card__title">Первый ход 3 уровень</div>
+							<div class="card__price">цена: 10кг</div>
+							<div class="card__requirements">Требования: <span>Коммерсант</span></div>
+							<div class="card__actives">Активна: <span>10 дней</span></div>
+						</div>
+						<div class="store__card">
+							<img src="./img/lider_1.png" class="card__img" alt="Карта">
+							<div class="card__title">Первый ход 4 уровень</div>
+							<div class="card__price">цена: 20кг</div>
+							<div class="card__requirements">Требования: <span>Гранд</span></div>
+							<div class="card__actives">Активна: <span>10 дней</span></div>
+						</div>
+					</div>
+				</div>
+				<div class="store-cards">
+					<div class="store__cards__title">ДРУГ ТАМОЖЕННИКА</div>
+					<div class="store__cards__text">Имея такую VIP карту Вы не задерживаетесь Таможенной службой</div>
+					<div class="cards-wrapper">
+						<div class="store__card">
+							<img src="./img/custom_friend.png" class="card__img" alt="Карта">
+							<div class="card__title">Обход тюрьмы</div>
+							<div class="card__price">цена: 20кг</div>
+							<div class="card__requirements">Требования: <span>Богач</span></div>
+							<div class="card__actives">Активна: <span>12 дней</span></div>
+						</div>
+					</div>
+				</div>
+				<div class="store-cards">
+					<div class="store__cards__title">УДАЧЛИВЫЙ ИНВЕСТОР</div>
+					<div class="store__cards__text">Имея такую VIP карту у Вас повышается удачливость в лотерею, вам чаще будет выпадать шанс стать инвестором</div>
+					<div class="cards-wrapper">
+						<div class="store__card">
+							<img src="./img/lottery_luck.png" class="card__img" alt="Карта">
+							<div class="card__title">Увеличивает на 2%<br>шанс стать инвестором</div>
+							<div class="card__price">цена: 10кг</div>
+							<div class="card__requirements">Требования: <span>Бизнесмен</span></div>
+							<div class="card__actives">Активна: <span>7 дней</span></div>
+						</div>
+						<div class="store__card">
+							<img src="./img/lottery_luck.png" class="card__img" alt="Карта">
+							<div class="card__title">Увеличивает на 4%<br>шанс стать инвестором</div>
+							<div class="card__price">цена: 20кг</div>
+							<div class="card__requirements">Требования: <span>Банкир</span></div>
+							<div class="card__actives">Активна: <span>10 дней</span></div>
+						</div>
+						<div class="store__card">
+							<img src="./img/lottery_luck.png" class="card__img" alt="Карта">
+							<div class="card__title">Увеличивает на 6%<br>шанс стать инвестором</div>
+							<div class="card__price">цена: 40кг</div>
+							<div class="card__requirements">Требования: <span>Богач</span></div>
+							<div class="card__actives">Активна: <span>12 дней</span></div>
+						</div>
+					</div>
+				</div>
+				<div class="store-cards">
+					<div class="store__cards__title">ЗАХВАТЧИК</div>
+					<div class="store__cards__text">Имея такую карту у Вас появится шанс выиграть в лотерею возможность захвата фирм соперника</div>
+					<div class="cards-wrapper">
+						<div class="store__card">
+							<img src="./img/raid_luck.png" class="card__img" alt="Карта">
+							<div class="card__title">Шанс захватить фирму<br>1%</div>
+							<div class="card__price">цена: 10кг</div>
+							<div class="card__requirements">Требования: <span>Бизнесмен</span></div>
+							<div class="card__actives">Активна: <span>7 дней</span></div>
+						</div>
+						<div class="store__card">
+							<img src="./img/raid_luck.png" class="card__img" alt="Карта">
+							<div class="card__title">Шанс захватить фирму<br>2%</div>
+							<div class="card__price">цена: 30кг</div>
+							<div class="card__requirements">Требования: <span>Банкир</span></div>
+							<div class="card__actives">Активна: <span>10 дней</span></div>
+						</div>
+						<div class="store__card">
+							<img src="./img/raid_luck.png" class="card__img" alt="Карта">
+							<div class="card__title">Шанс захватить фирму<br>5%</div>
+							<div class="card__price">цена: 60кг</div>
+							<div class="card__requirements">Требования: <span>Богач</span></div>
+							<div class="card__actives">Активна: <span>12 дней</span></div>
+						</div>
+					</div>
+				</div>
+			</div>
         </div>
-
      </div>
   </div>
 </div>
