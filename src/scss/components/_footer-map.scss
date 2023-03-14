@@ -97,8 +97,8 @@
 }
 
 .player__card-photo {
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
     border-radius: 12px;
     -webkit-border-radius: 12px;
     -moz-border-radius: 12px;
@@ -109,7 +109,7 @@
 
 .player__photo-pic {
     min-width: 100%;
-    max-width: 150%;
+    // max-width: 150%;
 }
 
 /* Цвета карточек */
