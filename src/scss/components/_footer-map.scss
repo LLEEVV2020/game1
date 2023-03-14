@@ -127,7 +127,8 @@
     /* Цвета карточек */
 
     .opponent-1 {
-        border: 3px solid var(--color-pink);
+        // border: 3px solid var(--color-pink);
+        border: 3px solid #D3089B;
         /* background: rgba(211, 8, 155, .2); */
         background: linear-gradient(180deg, rgba(180, 43, 220, 0) 0%, rgba(181, 42, 221, 0.44) 56.25%, rgba(185, 44, 225, 0.8) 100%);
     }
