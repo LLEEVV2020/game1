@@ -31,19 +31,26 @@
 	margin-bottom: 0;
 }
 
-.nav-bar li a{
+.nav-bar li button{
+	padding: 0;
+	border: 0;
+	background: none;
 	margin-right: 16px;
 	color: rgba(0,183,181,.5);
 	opacity: .9;
 	text-transform: uppercase;
 }
 
-.nav-bar li a:hover{
+.nav-bar li button:hover{
 	opacity: 1;
 }
 
 .nav-bar .active{
 	color: #fff;
+}
+
+.nav-tabs{
+	border: none;
 }
 
 .scrolls-card{
@@ -52,7 +59,6 @@
 
 .store-cards{
 	text-align: center;
-	margin-top: 12px;
 	margin-top: 50px;
 }
 
@@ -99,4 +105,24 @@
 
 .inactive{
 	opacity: .2;
+}
+
+.img__wrapper{
+	display: flex;
+	justify-content: center;
+}
+
+.sets__img{
+	transform: rotate(15deg);
+	width: 60px;
+	height: 60px;
+}
+
+.sets__img_margin{
+	margin-right: 20px;
+}
+
+.sets__img__vip{
+	width: 60px;
+	height: 60px;
 }

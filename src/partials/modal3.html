@@ -8,15 +8,15 @@
            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
 		<div class="nav-bar">
-			<ul>
-				<li><a href="#" class="active">Карты</a></li>
-				<li><a href="#">Наборы</a></li>
-				<li><a href="#">Банк</a></li>
+			<ul class="nav nav-tabs" id="myTab" role="tablist">
+				<li class="nav-item" role="presentation"><button class="active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Карты</button></li>
+				<li class="nav-item" role="presentation"><button id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Наборы</button></li>
+				<li class="nav-item" role="presentation"><button id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Банк</button></li>
 			</ul>
 		</div>
 		<!-- Чтобы сделать карточку активной, необходимо убрать класс inactive -->
-        <div class="modal-body text-white">
-			<div class="scrolls-card">
+        <div class="modal-body text-white tab-content" id="myTabContent">
+			<div class="tab-pane fade show active scrolls-card" id="home" role="tabpanel" aria-labelledby="home-tab">
 				<div class="store-cards">
 					<div class="store__cards__title">НАЛОГОВЫЙ ИММУНИТЕТ</div>
 					<div class="store__cards__text">Приобретая данную VIP карту Вы получаете уменьшение стоимости платы при попадании на клетку "Налог"</div>
@@ -220,7 +220,115 @@
 					</div>
 				</div>
 			</div>
-        </div>
+			<div class="tab-pane fade scrolls-card" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+				<div class="store-cards">
+					<div class="store__cards__title">НАБОР НОВИЧКА (1 ДЕНЬ)</div>
+					<div class="store__cards__text">Стоимость: 1кг. золота, титул: Менеджер</div>
+					<div class="img__wrapper">
+						<img src="./img/tax_immun_1.png" alt="Карточка" class="sets__img sets__img_margin">
+						<img src="./img/lider_1.png" alt="Карточка" class="sets__img">
+					</div>
+				</div>
+				<div class="store-cards">
+					<div class="store__cards__title">НАБОР БИЗНЕСМЕНА (3 ДНЯ)</div>
+					<div class="store__cards__text">Стоимость: 10кг. золота, титул: Бизнесмен</div>
+					<div class="img__wrapper">
+						<img src="./img/tax_immun_1.png" alt="Карточка" class="sets__img sets__img_margin">
+						<img src="./img/active_player.png" alt="Карточка" class="sets__img sets__img_margin">
+						<img src="./img/smash.png" alt="Карточка" class="sets__img sets__img_margin">
+						<img src="./img/authority_1.png" alt="Карточка" class="sets__img sets__img_margin">
+						<img src="./img/lider_1.png" alt="Карточка" class="sets__img sets__img_margin">
+						<img src="./img/lottery_luck.png" alt="Карточка" class="sets__img sets__img_margin">
+						<img src="./img/raid_luck.png" alt="Карточка" class="sets__img">
+					</div>
+				</div>
+				<div class="store-cards">
+					<div class="store__cards__title">НАБОР КОММЕРСАНТА (7 ДНЕЙ)</div>
+					<div class="store__cards__text">Стоимость: 40кг. золота, титул: Коммерсант</div>
+					<div class="img__wrapper">
+						<img src="./img/tax_immun_2.png" alt="Карточка" class="sets__img sets__img_margin">
+						<img src="./img/active_player.png" alt="Карточка" class="sets__img sets__img_margin">
+						<img src="./img/smash.png" alt="Карточка" class="sets__img sets__img_margin">
+						<img src="./img/authority_1.png" alt="Карточка" class="sets__img sets__img_margin">
+						<img src="./img/lider_1.png" alt="Карточка" class="sets__img sets__img_margin">
+						<img src="./img/lottery_luck.png" alt="Карточка" class="sets__img sets__img_margin">
+						<img src="./img/raid_luck.png" alt="Карточка" class="sets__img">
+					</div>
+				</div>
+				<div class="store-cards">
+					<div class="store__cards__title">НАБОР БАНКИРА (7 ДНЕЙ)</div>
+					<div class="store__cards__text">Стоимость: 70кг. золота, титул: Банкир</div>
+					<div class="img__wrapper">
+						<img src="./img/tax_immun_3.png" alt="Карточка" class="sets__img sets__img_margin">
+						<img src="./img/active_player.png" alt="Карточка" class="sets__img sets__img_margin">
+						<img src="./img/smash.png" alt="Карточка" class="sets__img sets__img_margin">
+						<img src="./img/authority_1.png" alt="Карточка" class="sets__img sets__img_margin">
+						<img src="./img/lider_1.png" alt="Карточка" class="sets__img sets__img_margin">
+						<img src="./img/lottery_luck.png" alt="Карточка" class="sets__img sets__img_margin">
+						<img src="./img/raid_luck.png" alt="Карточка" class="sets__img">
+					</div>
+				</div>
+				<div class="store-cards">
+					<div class="store__cards__title">НАБОР ГРАНДА (14 ДНЕЙ)</div>
+					<div class="store__cards__text">Стоимость: 150кг. золота, титул: Гранд</div>
+					<div class="img__wrapper">
+						<img src="./img/tax_immun_3.png" alt="Карточка" class="sets__img sets__img_margin">
+						<img src="./img/active_player.png" alt="Карточка" class="sets__img sets__img_margin">
+						<img src="./img/smash.png" alt="Карточка" class="sets__img sets__img_margin">
+						<img src="./img/authority_1.png" alt="Карточка" class="sets__img sets__img_margin">
+						<img src="./img/lider_1.png" alt="Карточка" class="sets__img sets__img_margin">
+						<img src="./img/lottery_luck.png" alt="Карточка" class="sets__img sets__img_margin">
+						<img src="./img/raid_luck.png" alt="Карточка" class="sets__img">
+					</div>
+				</div>
+				<div class="store-cards">
+					<div class="store__cards__title">МАКСИМАЛЬНЫЙ (14 ДНЕЙ)</div>
+					<div class="store__cards__text">Стоимость: 250кг. золота, титул: Богач</div>
+					<div class="img__wrapper">
+						<img src="./img/tax_immun_4.png" alt="Карточка" class="sets__img sets__img_margin">
+						<img src="./img/active_player.png" alt="Карточка" class="sets__img sets__img_margin">
+						<img src="./img/smash.png" alt="Карточка" class="sets__img sets__img_margin">
+						<img src="./img/authority_1.png" alt="Карточка" class="sets__img sets__img_margin">
+						<img src="./img/lider_1.png" alt="Карточка" class="sets__img sets__img_margin">
+						<img src="./img/custom_friend.png" alt="Карточка" class="sets__img sets__img_margin">
+						<img src="./img/lottery_luck.png" alt="Карточка" class="sets__img sets__img_margin">
+						<img src="./img/raid_luck.png" alt="Карточка" class="sets__img">
+					</div>
+				</div>
+				<div class="store-cards">
+					<div class="store__cards__title">МАКСИМАЛЬНЫЙ (1 ДЕНЬ)</div>
+					<div class="store__cards__text">Стоимость: 250кг. золота, титул: Богач</div>
+					<div class="img__wrapper">
+						<img src="./img/tax_immun_4.png" alt="Карточка" class="sets__img sets__img_margin">
+						<img src="./img/active_player.png" alt="Карточка" class="sets__img sets__img_margin">
+						<img src="./img/smash.png" alt="Карточка" class="sets__img sets__img_margin">
+						<img src="./img/authority_1.png" alt="Карточка" class="sets__img sets__img_margin">
+						<img src="./img/lider_1.png" alt="Карточка" class="sets__img sets__img_margin">
+						<img src="./img/custom_friend.png" alt="Карточка" class="sets__img sets__img_margin">
+						<img src="./img/lottery_luck.png" alt="Карточка" class="sets__img sets__img_margin">
+						<img src="./img/raid_luck.png" alt="Карточка" class="sets__img sets__img_margin">
+						<img src="./img/vip.png" alt="Карточка" class="sets__img__vip">
+					</div>
+				</div>
+				<div class="store-cards">
+					<div class="store__cards__title">МАКСИМАЛЬНЫЙ (7 ДНЕЙ)</div>
+					<div class="store__cards__text">Стоимость: 140кг. золота, титул: Богач</div>
+					<div class="img__wrapper">
+						<img src="./img/tax_immun_4.png" alt="Карточка" class="sets__img sets__img_margin">
+						<img src="./img/active_player.png" alt="Карточка" class="sets__img sets__img_margin">
+						<img src="./img/smash.png" alt="Карточка" class="sets__img sets__img_margin">
+						<img src="./img/authority_1.png" alt="Карточка" class="sets__img sets__img_margin">
+						<img src="./img/lider_1.png" alt="Карточка" class="sets__img sets__img_margin">
+						<img src="./img/custom_friend.png" alt="Карточка" class="sets__img sets__img_margin">
+						<img src="./img/lottery_luck.png" alt="Карточка" class="sets__img sets__img_margin">
+						<img src="./img/raid_luck.png" alt="Карточка" class="sets__img">
+					</div>
+				</div>
+			</div>
+			<div class="tab-pane fade scrolls-card" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+				Пока ничего нет
+			</div>
+		</div>
      </div>
   </div>
 </div>
