@@ -199,6 +199,9 @@
      background: linear-gradient(180deg, rgb(101, 140, 49), rgb(31, 64, 1));
      border: 2px solid #759322;
      border-radius: 5px;
+     font-size: 22px;
+     padding: 14px 50px 14px 50px;
+     font-weight: 500;
 }
 
 .modal__button:active{
@@ -209,6 +212,8 @@
 
 .checkbox__rate .checkbox__number{
   background-image: none;
+  width: 150px;
+  height: 50px;
 }
 .checkbox__rate .checkbox__number span{
   position:absolute;
@@ -216,5 +221,5 @@
 
   top: 50%;
   transform: translate(-50%, -50%);
-  font-size: 30px;
+
 }
