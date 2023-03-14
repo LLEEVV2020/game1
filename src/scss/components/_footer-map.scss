@@ -1,1 +1,135 @@
 // Артём здесь верстай
+.footer__new {
+
+    *,
+    *::after,
+    *::before {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    :root {
+        --color-pink: #D3089B;
+        --color-green: #37BA00;
+        --color-yellow: #F3D062;
+        --color-red: #E02E0B;
+        --color-blue: #0681FD;
+    }
+
+    .footer__new {
+        width: 100%;
+        min-height: 150px;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .players__cards {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        width: 1024px;
+        margin: 0 auto;
+    }
+
+    .player__card {
+        display: flex;
+        gap: 8px;
+        border-radius: 12px;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        -ms-border-radius: 12px;
+        -o-border-radius: 12px;
+        padding: 5px;
+        position: relative;
+        overflow: hidden;
+    }
+    .player__card::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #ffffff;
+        z-index: -1;
+    }
+
+    .player__card-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .card__player-info {}
+
+    .player__card-title,
+    .player__card-desc {
+        font-size: 12px;
+        line-height: 10px;
+        font-weight: 700;
+    }
+
+    .player__card-desc {
+        color: #FF0000;
+        font-size: 10px;
+    }
+
+    .card__money-info {
+        display: grid;
+        color: rgba(0, 0, 0, .6);
+        // grid-row-gap: 5px;
+    }
+
+    .player__card-money,
+    .player__card-allMoney {
+        position: relative;
+        padding-left: 10px;
+        font-size: 12px;
+    }
+
+    .player__card-money::before {
+        content: '$';
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: #306512;
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+    .player__card-allMoney::before {
+        content: 'A';
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: #BE2D1C;
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+    .player__card-photo {
+        width: 60px;
+        height: 60px;
+        border-radius: 12px;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        -ms-border-radius: 12px;
+        -o-border-radius: 12px;
+        overflow: hidden;
+    }
+
+    .player__photo-pic {
+        min-width: 100%;
+        max-width: 150%;
+    }
+
+    /* Цвета карточек */
+
+    .opponent-1 {
+        // border: 3px solid var(--color-pink);
+        border: 3px solid #D3089B;
+        /* background: rgba(211, 8, 155, .2); */
+        background: linear-gradient(180deg, rgba(180, 43, 220, 0) 0%, rgba(181, 42, 221, 0.44) 56.25%, rgba(185, 44, 225, 0.8) 100%);
+    }
+}
