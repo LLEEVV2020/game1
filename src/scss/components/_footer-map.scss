@@ -77,9 +77,9 @@
     .player__card-money::before {
         content: '$';
         position: absolute;
-        top: -30%;
+        top: 0;
         left: 0;
-        color: #4D912B;
+        color: #306512;
         font-size: 12px;
         font-weight: 700;
     }
@@ -87,9 +87,9 @@
     .player__card-allMoney::before {
         content: 'A';
         position: absolute;
-        top: -30%;
+        top: 0;
         left: 0;
-        color: #FF0000;
+        color: #BE2D1C;
         font-size: 12px;
         font-weight: 700;
     }
