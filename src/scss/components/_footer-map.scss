@@ -41,6 +41,18 @@
         -ms-border-radius: 12px;
         -o-border-radius: 12px;
         padding: 5px;
+        position: relative;
+        overflow: hidden;
+    }
+    .player__card::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #ffffff;
+        z-index: -1;
     }
 
     .player__card-content {
