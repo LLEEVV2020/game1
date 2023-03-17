@@ -1,0 +1,44 @@
+
+*::-webkit-scrollbar {
+  width: 12px;               /* ширина scrollbar */
+}
+*::-webkit-scrollbar-track {
+  background: #2A0401;        /* цвет дорожки */
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #443027;    /* цвет плашки */
+  border-radius: 20px;       /* закругления плашки */
+  border: 3px solid #2A0401;  /* padding вокруг плашки */
+}
+.shopcards__container{
+  max-width: 430px;
+  max-height: 340px;
+  background-color: #2A0401;
+  border: 3px solid  #481209;
+  border-radius: 5px;
+  text-align: center;
+  color: white;
+  overflow: auto;
+  padding-top: 10px;
+}
+.shopcards__container img{
+ transform: translate(0,4px);
+}
+.shopcards__container-cards{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+.shopcards__container p{
+  font-size: 8px;
+}
+.shopcards__container-p-gold{
+  color: gold;
+}
+.shopcards__container-cards-item img{
+  border-radius: 5px;
+}
+.shopcards__container-cards-item4{
+   padding: 25px;
+   opacity: 0.5;
+}
