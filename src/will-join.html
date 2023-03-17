@@ -34,33 +34,30 @@
 
 
 	<script src="assets/js/jquery.min.js"></script>
-
 	<script src="assets/js/slimscroll.min.js"></script>
 	<script>
-          window.onload = function(){
-                if(!navigator.userAgent.match('Macintosh')){
-                    var element = document.querySelectorAll('.slimScroll');
+    window.onload = function(){
+      if(!navigator.userAgent.match('Macintosh')){
+        var element = document.querySelectorAll('.slimScroll');
 
-                    for (let elem of element) {
+        for (let elem of element) {
 
-                        var three = new slimScroll(elem, {
-                            'wrapperClass': 'scroll-wrap',
-                            'scrollBarContainerClass': 'scroll-bar-wrap',
-                            'scrollBarClass': 'scroll-bar'
-                        });
+          var three = new slimScroll(elem, {
+              'wrapperClass': 'scroll-wrap',
+              'scrollBarContainerClass': 'scroll-bar-wrap',
+              'scrollBarClass': 'scroll-bar'
+          });
 
-                        window.onresize = function(){
-                            three.resetValues();
-                        }
-                    }
-                }
-
-            }
+          window.onresize = function(){
+              three.resetValues();
+          }
+        }
+      }
+    }
 	</script>
 
 	<script src="assets/js/jquery.min.js"></script>
-
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
 
 
 
