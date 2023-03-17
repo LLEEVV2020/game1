@@ -2,20 +2,147 @@
 	<div class="modal-dialog modal-lg modal-dialog-centered modal_width">
 		<div class="modal-content bg-dark modal_height">
 			<div class="modal-header modal_position_fixed">
-				<h4 class="modal-title text-white">Магазин</h4>
+				<h4 class="modal-title text-white">Профиль игрока</h4>
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			</div>
 			<div class="nav-bar">
 				<ul class="nav nav-tabs" id="myTab" role="tablist">
 					<li class="nav-item shop__nav__item" role="presentation"><button class="active" id="info-tab" data-bs-toggle="tab" data-bs-target="#info" type="button" role="tab" aria-controls="info" aria-selected="true"><img src="./img/tab1.png"></button></li>
 					<li class="nav-item shop__nav__item" role="presentation"><button id="hats-tab" data-bs-toggle="tab" data-bs-target="#hats" type="button" role="tab" aria-controls="hats" aria-selected="false"><img src="./img/tab2.png"></button></li>
-					<li class="nav-item shop__nav__item" role="presentation"><button id="cards-tab" data-bs-toggle="tab" data-bs-target="#cards" type="button" role="tab" aria-controls="cards" aria-selected="false"><img src="./img/tab3.png"></button></li>
+					<li class="nav-item shop__nav__item" role="presentation"><button id="cards-tab" data-bs-toggle="tab" data-bs-target="#cards" type="button" role="tab" aria-controls="cards" aria-selected="false"><img src="./img/tab3.png" class="shop__nav__img_width"></button></li>
 					<li class="nav-item shop__nav__item" role="presentation"><button id="gift-tab" data-bs-toggle="tab" data-bs-target="#gift" type="button" role="tab" aria-controls="gift" aria-selected="false"><img src="./img/tab4.png"></button></li>
-					<li class="nav-item shop__nav__item" role="presentation"><button id="medal-tab" data-bs-toggle="tab" data-bs-target="#medal" type="button" role="tab" aria-controls="medal" aria-selected="false"><img src="./img/tab5.png"></button></li>
+					<li class="nav-item shop__nav__item" role="presentation"><button id="medal-tab" data-bs-toggle="tab" data-bs-target="#medal" type="button" role="tab" aria-controls="medal" aria-selected="false"><img src="./img/tab5.png" class="shop__nav__img_height"></button></li>
 				</ul>
 			</div>
 			<div class="modal-body text-white tab-content" id="myTabContent">
-				
+				<div class="tab-pane fade show active scrolls-card" id="info" role="tabpanel" aria-labelledby="info-tab">
+					<div class="shop__informations">
+						<div class="shop__informations__left">
+							<div class="information__text">Всего сыграно игр: <span>0</span></div>
+							<div class="information__text">Побед: <span>0</span></div>
+							<div class="information__text">Побед в парных: <span>0</span></div>
+							<div class="information__text">Общий капитал: <span>0$</span></div>
+							<div class="information__text">За неделю: <span>0$</span></div>
+							<div class="information__text">Побед в турнирах: <span>0/0</span></div>
+						</div>
+						<div class="shop__informations__right">
+							<div class="information__text">Статус: <span>Стандарт</span></div>
+							<div class="information__text">Подарков: <span>0</span></div>
+							<div class="information__text">Золото за сутки: <span>0.0кг</span></div>
+							<div class="information__text">Последний вход: <span>Оффлайн</span></div>
+							<div class="information__text">В игре: <span>0ч.</span></div>
+						</div>
+					</div>
+				</div>
+				<div class="tab-pane fade scrolls-card" id="hats" role="tabpanel" aria-labelledby="hats-tab">
+					<div class="warning__shop">Шапки приобретаются на 7 дней.</div>
+					<div class="hat__cards__wrapper">
+						<div class="hat__card">
+							<div class="hat__card__title">Новогодняя</div>
+							<img src="./img/30.png" alt="Шапка" class="hat__card__img">
+							<div class="hat__card__text">Шапка Санта-клауса. Умножит выигранный вами капитал в 3 раза, и добавит + 20% к выигранному золоту (Но не более +20кг)</div>
+						</div>
+						<div class="hat__card">
+							<div class="hat__card__title">Белая шляпа</div>
+							<img src="./img/38.png" alt="Шапка" class="hat__card__img">
+							<div class="hat__card__text">Если вы хотите быстрее стать Президентом, то Белая шляпа вам в этом поможет. Выигранный капитал сразу же будет умножаться вдвое!</div>
+						</div>
+						<div class="hat__card">
+							<div class="hat__card__title">Соломенная шляпа</div>
+							<img src="./img/39.png" alt="Шапка" class="hat__card__img">
+							<div class="hat__card__text">Если вам невтерпёж стать Легендой сервера, то элегантная соломенная шляпка - ваш выбор. Выигранный капитал сразу же будет умножаться вдвое!</div>
+						</div>
+						<div class="hat__card">
+							<div class="hat__card__title">Зелёная фуражка</div>
+							<img src="./img/40.png" alt="Шапка" class="hat__card__img">
+							<div class="hat__card__text">Зелёная фуражка просто увеличит выигранный вами капитал вдвое, без вопросов.</div>
+						</div>
+						<div class="hat__card">
+							<div class="hat__card__title">Белая шляпа</div>
+							<img src="./img/41.png" alt="Шапка" class="hat__card__img">
+							<div class="hat__card__text">Хотите быстрее наигрывать капитал и при этом выглядеть элегантно, то Шляпа Казанова вам в этом поможет. Выигранный капитал будет умножаться вдвое!</div>
+						</div>
+						<div class="hat__card">
+							<div class="hat__card__title">Рожки дьявола</div>
+							<img src="./img/42.png" alt="Шапка" class="hat__card__img">
+							<div class="hat__card__text">Дьявольская прибавка х2 к капиталу при победе!</div>
+						</div>
+						<div class="hat__card">
+							<div class="hat__card__title">Ушки кошки</div>
+							<img src="./img/43.png" alt="Шапка" class="hat__card__img">
+							<div class="hat__card__text">Ушки дают х2 к капиталу при победе!</div>
+						</div>
+						<div class="hat__card">
+							<div class="hat__card__title">Корона</div>
+							<img src="./img/45.png" alt="Шапка" class="hat__card__img">
+							<div class="hat__card__text">Царская корона. х2 к капиталу и + 5% к золоту при победе!</div>
+						</div>
+						<div class="hat__card">
+							<div class="hat__card__title">Вязаная шапочка</div>
+							<img src="./img/2.png" alt="Шапка" class="hat__card__img">
+							<div class="hat__card__text">Повседневная, тёплая шапка. Увеличит ваш выигрыш капитала на 15% и золота на 10%</div>
+						</div>
+					</div>
+				</div>
+				<div class="tab-pane fade scrolls-card" id="cards" role="tabpanel" aria-labelledby="cards-tab">
+					Пока нет ни одной карты
+				</div>
+				<div class="tab-pane fade scrolls-card" id="gift" role="tabpanel" aria-labelledby="gift-tab">
+					Пока нет ни одного подарка
+				</div>
+				<div class="tab-pane fade scrolls-card" id="medal" role="tabpanel" aria-labelledby="medal-tab">
+					<!-- Чтобы сделать медаль активной, необходимо убрать классс inactive -->
+					<div class="medal__cards__wrapper">
+						<div class="medal__card inactive">
+							<img class="medal__img" src="./img/medal.png" alt="Медаль">
+							<div class="medal__title">Новый титул</div>
+						</div>
+						<div class="medal__card inactive">
+							<img class="medal__img" src="./img/medal.png" alt="Медаль">
+							<div class="medal__title">Новый титул</div>
+						</div>
+						<div class="medal__card inactive">
+							<img class="medal__img" src="./img/medal.png" alt="Медаль">
+							<div class="medal__title">Новый титул</div>
+						</div>
+						<div class="medal__card inactive">
+							<img class="medal__img" src="./img/medal.png" alt="Медаль">
+							<div class="medal__title">Новый титул</div>
+						</div>
+						<div class="medal__card inactive">
+							<img class="medal__img" src="./img/medal.png" alt="Медаль">
+							<div class="medal__title">Новый титул</div>
+						</div>
+						<div class="medal__card inactive">
+							<img class="medal__img" src="./img/medal.png" alt="Медаль">
+							<div class="medal__title">Новый титул</div>
+						</div>
+						<div class="medal__card inactive">
+							<img class="medal__img" src="./img/medal.png" alt="Медаль">
+							<div class="medal__title">Новый титул</div>
+						</div>
+						<div class="medal__card inactive">
+							<img class="medal__img" src="./img/medal.png" alt="Медаль">
+							<div class="medal__title">Новый титул</div>
+						</div>
+						<div class="medal__card inactive">
+							<img class="medal__img" src="./img/medal.png" alt="Медаль">
+							<div class="medal__title">Новый титул</div>
+						</div>
+						<div class="medal__card inactive">
+							<img class="medal__img" src="./img/medal.png" alt="Медаль">
+							<div class="medal__title">Новый титул</div>
+						</div>
+						<div class="medal__card inactive">
+							<img class="medal__img" src="./img/medal.png" alt="Медаль">
+							<div class="medal__title">Новый титул</div>
+						</div>
+						<div class="medal__card inactive">
+							<img class="medal__img" src="./img/medal.png" alt="Медаль">
+							<div class="medal__title">Новый титул</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
