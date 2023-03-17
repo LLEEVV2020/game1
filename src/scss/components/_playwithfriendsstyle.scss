@@ -1,0 +1,81 @@
+.allbonus{
+  margin-top: 50px;
+  max-width: 675px;
+  background-color: #340228;
+  display: flex;
+  justify-content: center;
+  padding: 0  5px;
+}
+.allbonus__container{
+  padding: 10px 0;
+}
+.allbonus__container-info{
+  background-color: #1c0400;
+  padding: 0  10px;
+}
+.playwithfriends__container{
+max-width: 650px;
+text-align: center;
+margin-top: 25px;
+}
+.playwithfriends__container-standart{
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+}
+.playwithfriends__container-standart-gold{
+  color: gold;
+  padding: 0;
+  margin: 0;
+}
+.playwithfriends__container-standart-gold-big{
+  font-weight: 700;
+  text-shadow: 0 0 1px gold;
+
+}
+.allbonus__head {
+  display: flex;
+justify-content: center;
+}
+.allbonus__head img{
+height: 50px;
+width: 465px;
+display: block;
+transform: translate(0, -21px);
+}
+.allbonus__container-info-goldscale{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+}
+.allbonus__container-info-goldscale img{
+  height: 20px;
+  width: 20px;
+}
+.allbonus__container-info-goldscale-scale{
+  height: 20px;
+  width: 530px;
+  border-radius: 10px;
+  background-color: gold;
+}
+.allbonus__container-info-goldscale-value{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.allbonus__container-info-goldscale-button{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.allbonus__container-info-goldscale-button-text{
+  max-width: 495px;
+}
+.allbonus__container-info-goldscale-button button{
+  background-color: gold;
+  color: #1c0400;
+  width: 80px;
+  height: 25px;
+  border-radius: 15px;
+}
