@@ -1,1 +1,30 @@
 // Мизам
+.nav-bar ul{
+	display: flex;
+	list-style-type: none;
+	padding-left: 0;
+	margin-bottom: 0;
+}
+
+.shop__nav__item button{
+	padding: 0;
+	border: 0;
+	background: none;
+	margin-right: 16px;
+	color: rgba(0,183,181,.5);
+	opacity: .9;
+	text-transform: uppercase;
+}
+
+.shop__nav__item img{
+	width: 24px;
+	height: 24px;
+}
+
+.shop__nav__item button:hover{
+	opacity: 1;
+}
+
+.shop__nav__item .active{
+	color: #fff;
+}
