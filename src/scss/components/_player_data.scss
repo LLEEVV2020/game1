@@ -108,6 +108,11 @@
     position: relative;
     border-bottom: 1px solid #dee2e6;
 }
+
+.player_data-modal .my__data-center-items {
+    background: rgb(231, 229, 229);
+}
+
 .my__data-center-items::after,
 .my__data-center-items::before {
     content: '';
