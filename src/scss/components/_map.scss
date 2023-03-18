@@ -1589,3 +1589,11 @@ background: rgb(73,132,40);
   top: 8px;
   transform: rotate(180deg);
 }
+.cell-indicator{
+  position:absolute;
+  left: 4px;
+  bottom: 0;
+  color: #fff;
+  font-size: 11px;
+  letter-spacing: .01em;
+}

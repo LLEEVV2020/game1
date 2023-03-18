@@ -5,6 +5,7 @@
     display: flex;
     flex-direction: column;
     z-index: 2;
+    overflow: hidden;
     hr{
         border-bottom: 1px solid #fff;
         border-top: 1px solid #000;
@@ -22,6 +23,11 @@
     line-height: 1.2;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
+    &::before{
+      content: "r";
+
+
+    }
 }
 .make-deal__input{
     width: 90%;
@@ -128,7 +134,7 @@
 }
 
 .btns-actions{
-    .btn--green-w, 
+    .btn--green-w,
     .btn--yellow-w{
         color: #fff;
         font-size: 16px;
@@ -143,13 +149,13 @@
     }
     .btn--yellow-w{
         background-image: linear-gradient(180deg, #FFDD69 0%, #FF6315 100%);
-        
+
     }
 }
 .scroll-bar__indicator{
 
     margin-bottom: 10px;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: -5px;
+    margin-right: -5px;
 }
 
