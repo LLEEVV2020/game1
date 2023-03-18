@@ -35,7 +35,7 @@
 
 .my__modal-top-items {
     width: 100%;
-    background: url(/src/resources/assets/ui/images/5.png) repeat-x;
+    background: url(../assets/ui/images/5.png) repeat-x;
     box-shadow: 0 0 10px #000000;
     border-radius: 12px;
     -webkit-border-radius: 12px;
@@ -81,11 +81,11 @@
 .my__data-modalClose {
     width: 35px;
     height: 42px;
-    background: url(/src/resources/assets/ui/shapes/19.png) no-repeat;
+    background: url(../assets/ui/shapes/19.png) no-repeat;
 }
 
 .my__data-modalClose:active {
-    background: url(/src/resources/assets/ui/shapes/21.png) no-repeat;
+    background: url(../assets/ui/shapes/21.png) no-repeat;
     transform: translate(1px, 1px);
     -webkit-transform: translate(1px, 1px);
     -moz-transform: translate(1px, 1px);
@@ -183,11 +183,11 @@
 .tabs {
     font-size: 0;
     width: 100%;
-    background: url(/src/resources/assets/ui/shapes/495.png) repeat;
-    /* background: url(../resources/assets/ui/shapes/497.png) repeat; */
+    background: url(../assets/ui/shapes/495.png) repeat;
+    /* background: url(../assets/ui/shapes/497.png) repeat; */
     background-size: 100% 100%;
     border-top: 2px solid #000000;
-    margin-top: -28px;
+    margin-top: -25px;
     height: 100%;
     padding: 0 15px;
     
@@ -207,6 +207,7 @@
 #tab-btn-3:checked~#content-3,
 #tab-btn-4:checked~#content-4 {
     display: block;
+    margin-top: 5px;
 }
 
 .tabs>label {
@@ -215,14 +216,14 @@
     text-align: center;
     vertical-align: middle;
     user-select: none;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 1.5;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
     cursor: pointer;
     position: relative;
     color: rgba(27, 31, 59, .8);
-    background: url(/src/resources/assets/ui/shapes/83.png) no-repeat;
-    background-size: 100% 100%;
+    background: url(../assets/ui/shapes/83.png) no-repeat;
+    // background-size: 100% 100%;
     transform: scale(1.1);
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
@@ -243,8 +244,8 @@
 
 .tabs>input[type="radio"]:checked+label {
     color: #000000;
-    background: url(/src/resources/assets/ui/shapes/79.png) no-repeat;
-    background-size: 100% 100%;
+    background: url(../assets/ui/shapes/79.png) no-repeat;
+    // background-size: 100% 100%;
     z-index: 10;
 }
 
@@ -267,9 +268,6 @@
 
 .my__data-table {
     border-collapse: collapse;
-}
-.my__data-table tbody tr:last-child td {
-    border: none;
 }
 
 .my__data-table tbody td {
@@ -297,6 +295,10 @@
     -o-border-radius: 5px 0 0 5px;
 } 
 
+.my__data-table tbody tr:last-child::after {
+    opacity: 0;
+}
+
 .my__data-table:first-child tbody td {
     padding-right: 40px;
 }
@@ -309,13 +311,13 @@
 }
 
 .my__data-table:last-child tbody td:last-child {
-    padding-right: 35px;
+    padding-right: 25px;
 }
 
 
 .my__data-tableTitle {
     margin: 0;
-    font-size: 14px;
+    font-size: 12px;
     color: rgba(255, 255, 255, .4);
     text-shadow: 0 0 4px rgba(0, 0, 0, .4);
     padding-right: 10px;
@@ -333,7 +335,7 @@
 .my__data-tableNumber
 {
     margin: 0;
-    font-size: 14px;
+    font-size: 12px;
     color: #dee2e6;
 }
 
@@ -345,7 +347,7 @@
 .my__data-table-Wins
 {
     margin: 0;
-    font-size: 14px;
+    font-size: 12px;
     text-align: center;
 }
 
