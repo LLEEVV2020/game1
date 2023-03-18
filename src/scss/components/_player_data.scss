@@ -35,7 +35,7 @@
 
 .my__modal-top-items {
     width: 100%;
-    background: url(../img/5.png) repeat-x;
+    background: url(../resources/assets/ui/images/5.png) repeat-x;
     box-shadow: 0 0 10px #000000;
     border-radius: 12px;
     -webkit-border-radius: 12px;
@@ -81,11 +81,11 @@
 .my__data-modalClose {
     width: 35px;
     height: 42px;
-    background: url(../img/19.png) no-repeat;
+    background: url(../resources/assets/ui/shapes/19.png) no-repeat;
 }
 
 .my__data-modalClose:active {
-    background: url(../img/21.png) no-repeat;
+    background: url(../resources/assets/ui/shapes/21.png) no-repeat;
     transform: translate(1px, 1px);
     -webkit-transform: translate(1px, 1px);
     -moz-transform: translate(1px, 1px);
@@ -183,8 +183,8 @@
 .tabs {
     font-size: 0;
     width: 100%;
-    background: url(../img/495.png) repeat;
-    /* background: url(../img/497.png) repeat; */
+    background: url(../resources/assets/ui/shapes/495.png) repeat;
+    /* background: url(../resources/assets/ui/shapes/497.png) repeat; */
     background-size: 100% 100%;
     border-top: 2px solid #000000;
     margin-top: -28px;
@@ -221,7 +221,7 @@
     cursor: pointer;
     position: relative;
     color: rgba(27, 31, 59, .8);
-    background: url(../img/83.png) no-repeat;
+    background: url(../resources/assets/ui/shapes/83.png) no-repeat;
     background-size: 100% 100%;
     transform: scale(1.1);
     -webkit-transform: scale(1.1);
@@ -243,7 +243,7 @@
 
 .tabs>input[type="radio"]:checked+label {
     color: #000000;
-    background: url(../img/79.png) no-repeat;
+    background: url(../resources/assets/ui/shapes/79.png) no-repeat;
     background-size: 100% 100%;
     z-index: 10;
 }
