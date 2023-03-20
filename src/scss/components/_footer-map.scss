@@ -341,3 +341,20 @@
 .aponnet__deal .player__deal {
     display: block;
 }
+
+@media screen and (max-width: 1075px) {
+    .player__btn-deal {
+        font-size: 13px;
+    }
+    .players__cards {
+        gap: 15px;
+    }
+}
+@media screen and (max-width: 993px) {
+    .player__btn-deal {
+        font-size: 12px;
+    }
+    .players__cards {
+        gap: 10px;
+    }
+}
