@@ -359,3 +359,13 @@
         gap: 10px;
     }
 }
+@media screen and (max-width: 904px) {
+    .player__btn-deal {
+        font-size: 11px;
+    }
+}
+@media screen and (max-width: 838px) {
+    .player__btn-deal {
+        font-size: 10px;
+    }
+}
