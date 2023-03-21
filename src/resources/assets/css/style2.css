@@ -524,6 +524,9 @@
 }
 .make-deal__title::before {
   content: "r";
+  background-image: url(../ui/shapes/289.png);
+  width: 29px;
+  height: 24px;
 }
 
 .make-deal__input {
