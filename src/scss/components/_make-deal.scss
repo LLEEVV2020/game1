@@ -26,12 +26,13 @@
   position: relative;
   &::before{
     content: "";
-    background-image: url(../img/ui/shapes/289.png);
+    background-image: url(../assets/ui/shapes/289.png);
     width: 29px;
     height: 24px;
-    position:absolute;
-    left: 0;
-    top: 0;
+    position: absolute;
+    left: 8px;
+    top: 50%;
+    transform: translateY(-49%);
 
   }
 }
@@ -81,10 +82,13 @@
   border-bottom-left-radius: 8px;
   padding-bottom: 8px;
   padding-top: 1px;
+  display: flex;
+  flex-direction: column;
 }
 .btns-actions--center{
   justify-content: center;
   display: flex;
+  margin-top: auto;
 }
 .scroll-bar__numbers{
   text-align: center;
@@ -165,3 +169,6 @@
   margin-right: -5px;
 }
 
+.scroll-bar__crutch{
+  margin-bottom: 40px;
+}

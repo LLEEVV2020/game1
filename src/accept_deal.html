@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/bootstrap-extended.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/slimscroll.css" rel="stylesheet">
+  <link href="assets/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/style2.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link href="static/css/main.dc949f5d.css" rel="stylesheet">
+</head>
+
+  <!-- Подключение FontAwesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<body>
+
+  <div class="site-container d-flex justify-content-center align-items-center">
+
+    @include('partials/header1.html')
+    <div id="board" class="board-grid board-grid--bg-black">
+      @include('partials/map2.html')
+      @include('partials/accept_deal.html')
+    </div>
+
+    @include('partials/footer_new.html')
+    <!--@include('partials/footer.html')-->
+
+  </div>
+
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/slimscroll.min.js"></script>
+  <script>
+    window.onload = function () {
+      if (!navigator.userAgent.match('Macintosh')) {
+        var element = document.querySelectorAll('.slimScroll');
+
+        for (let elem of element) {
+
+          var three = new slimScroll(elem, {
+            'wrapperClass': 'scroll-wrap',
+            'scrollBarContainerClass': 'scroll-bar-wrap',
+            'scrollBarClass': 'scroll-bar'
+          });
+
+          window.onresize = function () {
+            three.resetValues();
+          }
+        }
+      }
+
+    }
+  </script>
+
+
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    $(function () {
+      // инициализации подсказок для всех элементов на странице, имеющих атрибут data-toggle="tooltip"
+      //$('[data-toggle="tooltip"]').tooltip();
+
+      let elements = document.querySelectorAll('[data-toggle="tooltip"]');
+
+
+      for (let elem of elements) {
+        //elem.tooltip();
+
+        let tooltipitem = new bootstrap.Tooltip(elem);
+        ///tooltipitem.tooltip({title: function(){return 'testing';} })
+
+        elem.addEventListener('bs.tooltip', function () {
+          //alert("ggggdddsss");
+          //$('[data-toggle="tooltip"]').tooltip('hide');
+
+
+          tooltipitem.hide();
+          //console.log("ffff");
+
+
+        });
+      }
+
+      //var myTooltipEl = document.getElementById('myTooltip');
+      //var tooltip = new bootstrap.Tooltip(myTooltipEl);
+
+      //tooltip.hide()
+
+    });
+  </script>
+
+</body>
+
+</html>
