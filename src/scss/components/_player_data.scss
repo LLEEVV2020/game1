@@ -536,3 +536,68 @@
 .player_data-modal .my__modal-link {
     width: 32%;
 }
+
+
+/* ============ MEDIA ============ */
+
+@media screen and (max-width: 664px) {
+    .my__data-modalPhoto {
+        width: 80px;
+        height: 80px;
+    }
+    .my__modal-top-title {
+        font-size: 22px;
+    }
+    .my__data-modalArrow {
+        width: 30px;
+        height: 30px;
+    }
+    .my__data-modalClose {
+        width: 30px;
+        height: 35px;
+    }
+    .my__data-center-items {
+        gap: 20px;
+    }
+    .my__data-modal-playerTitle {
+        font-size: 20px;
+    }
+    .my__data-modal-desc {
+        font-size: 16px;
+    }
+    .tabs>label,
+    .tabs>input[type="radio"]:checked+label {
+        background-size: 100% 100%;
+    }
+    .tabs>label {
+        width: 24.7%;
+        font-size: 12px;
+        padding: 2px 0;
+    }
+    .tabs label:nth-child(2) {
+        margin-left: 0;
+    }
+    .my__data-tableTitle {
+        font-size: 10px;
+        padding-left: 10px;
+    }
+    .my__data-tableStatus,
+    .my__data-table-GeneralCapital,
+    .my__data-table-Week,
+    .my__data-table-LastVisit,
+    .my__data-table-Rating,
+    .my__data-table-Wins {
+        font-size: 10px;
+    }
+
+    .my__data-table-GeneralCapital,
+    .my__data-table-Week,
+    .my__data-table-Rating,
+    .my__data-table-Wins,
+    .my__data-tableNumber {
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 490px) {
+    
+}
