@@ -223,6 +223,17 @@
   .chest__card:nth-child(n+2) .chest__sum {
     bottom: 3px;
   }
-
+}
+@media screen and (max-width: 567px) {
+  .modal__bonus-chests {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    row-gap: 30px;
+  }
+  .chest__sum {
+    left: 25px;
+    font-size: 14px;
+  }
 }
 
