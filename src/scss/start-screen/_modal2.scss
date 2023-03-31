@@ -195,7 +195,34 @@
     max-width: 766px;
     width: 100%;
   }
-  .modal__content-title-2::after, .modal__content-title-2::before {
+  .modal__content-title::after,
+  .modal__content-title::before,
+  .modal__content-title-2::after,
+  .modal__content-title-2::before {
     top: 100%;
   }
+  .modal_-content-title,
+  .modal_-content-title-2 {
+    font-size: 18px;
+  }
+  .modal__content-title {
+    margin-bottom: 50px;
+  }
+  .modal__text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .bottom__modal-text {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .chest__sum {
+    left: 10px;
+    font-size: 12px;
+  }
+  .chest__card:nth-child(n+2) {
+    bottom: 3px;
+  }
+  
 }
+
