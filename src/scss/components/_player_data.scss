@@ -598,6 +598,34 @@
         font-size: 10px;
     }
 }
-@media screen and (max-width: 490px) {
-    
+@media screen and (max-width: 491px) {
+    .my__data-center-items {
+        padding: 25px 30px 50px;
+    }
+    .my__data-modalPhoto {
+        width: 60px;
+        height: 60px;
+    }
+    .my__data-modal-playerText {
+        gap: 0;
+    }
+    .my__data-modal-playerTitle {
+        font-size: 16px;
+    }
+    .my__data-modal-desc {
+        font-size: 12px;
+    }
+    .tabs {
+        margin-top: -21px;
+    }
+    .tabs>label {
+        font-size: 10px;
+    }
+    .my__data-center-items::after,
+    .my__data-center-items::before {
+        height: 106.5%;
+    }
+    .my__data-table:first-child tbody td {
+        padding-right: 0;
+    }
 }
