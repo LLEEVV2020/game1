@@ -189,3 +189,13 @@
 }
 
 /* Bottom text in modal window style end */
+
+@media screen and (max-width: 991px) {
+  .modal__content {
+    max-width: 766px;
+    width: 100%;
+  }
+  .modal__content-title-2::after, .modal__content-title-2::before {
+    top: 100%;
+  }
+}
