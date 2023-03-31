@@ -631,6 +631,14 @@
     .my__data-tableNumber {
         text-align: end;
     }
+    .my__data-tableStatus,
+    .my__data-table-GeneralCapital,
+    .my__data-table-Week,
+    .my__data-table-LastVisit,
+    .my__data-table-Rating,
+    .my__data-table-Wins {
+        text-align: end;
+    }
 }
 
 @media screen and (max-width: 491px) {
