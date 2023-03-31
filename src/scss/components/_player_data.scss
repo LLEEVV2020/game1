@@ -674,4 +674,29 @@
     .my__data-table:first-child tbody td {
         padding-right: 0;
     }
+    .my__data-modalArrow {
+        width: 25px;
+        height: 25px;
+    }
+    .my__data-modalClose {
+        width: 25px;
+        height: 30px;
+    }
+    .player__data-modalPresent {
+        width: 25px;
+        height: 25px;
+    }
+    .player__data-modalAttention {
+        width: 25px;
+        height: 25px;
+    }
+    .my__modal-top-title {
+        font-size: 20px;
+    }
+    .my__modal-top-items {
+        padding-left: 10px;
+    }
+    .player__data-userName {
+        font-size: 14px;
+    }
 }
