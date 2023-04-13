@@ -312,6 +312,11 @@ body{
 .cell__text{
   padding: 4px;
 }
+@media screen and (max-width: 1000px) {
+  .cell__text{
+    display: none;
+  }
+}
 
 .cell-item{
   background-color: #fff;
@@ -928,6 +933,13 @@ background: rgb(73,132,40);
       }
   }
 }
+@media screen and (max-width: 1000px) {
+  .item8 .cell-item{
+    &:after{
+
+    }
+  }
+}
 .item8{
   grid-column: 9;
   grid-row: 1;
@@ -1508,6 +1520,43 @@ background: rgb(73,132,40);
       }
   }
 }
+
+@media screen and (max-width: 1000px) {
+
+  /*.cell-item{
+    top: 50%;
+  }*/
+  .cell-top .cell-item::after,
+  .cell-right .cell-item::after,
+  .cell-bottom .cell-item::after,
+  .cell-left .cell-item::after   {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+  }
+  .cell-top .cell-item::after{
+    transform: rotate(-180deg) translate(55%, 44%);
+  }
+  .cell-right  .cell-item::after{
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  .cell-bottom  .cell-item::after{
+
+  }
+  .cell-left .cell-item::after{
+
+  }
+
+
+  .item15 .cell-item::after{
+    width: 33px;
+  }
+  .item16 .cell-item::after{
+    width: 22px;
+  }
+}
+
 
 .player-all{
   background-color: #fff;
