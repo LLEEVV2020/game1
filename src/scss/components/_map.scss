@@ -1542,10 +1542,10 @@ background: rgb(73,132,40);
     transform: translate(-50%, -50%) rotate(0deg);
   }
   .cell-bottom  .cell-item::after{
-
+    transform: translate(-50%, -50%) rotate(0deg);
   }
   .cell-left .cell-item::after{
-
+    transform: translate(-50%, -50%) rotate(0deg);
   }
 
 
@@ -1555,6 +1555,15 @@ background: rgb(73,132,40);
   .item16 .cell-item::after{
     width: 22px;
   }
+
+  .item22 .cell-item::after{
+    transform: translate(-56%, -50%) rotate(0deg);
+  }
+
+  .item24 .cell-item::after {
+
+  }
+
 }
 
 
